@@ -1,0 +1,52 @@
+// Estilos globales. Los colores son variables CSS ("tokens") para soportar modo oscuro.
+
+:root {
+  --fondo: #f6f7f9;
+  --superficie: #ffffff;
+  --borde: #e3e6ea;
+  --texto: #1b1f24;
+  --texto-suave: #5f6872;
+  color-scheme: light;
+}
+
+// Modo oscuro automático según la preferencia del sistema operativo.
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fondo: #121417;
+    --superficie: #1b1e23;
+    --borde: #2c3138;
+    --texto: #e8eaed;
+    --texto-suave: #a0a8b1;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.45;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+button {
+  font: inherit;
+  padding: .3rem .8rem;
+  border-radius: 999px;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--texto);
+  cursor: pointer;
+  &.activo { background: var(--texto); color: var(--superficie); border-color: var(--texto); }
+}
+
+// Tooltips de Leaflet acordes al tema
+.leaflet-tooltip { font-family: inherit; }
