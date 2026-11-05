@@ -1,0 +1,59 @@
+// minmax(0, 1fr): sin esto, la columna de la grilla crece hasta el ancho de su contenido
+// más ancho (la tabla) y desborda la pantalla en celulares.
+:host { display: grid; gap: 1.25rem; grid-template-columns: minmax(0, 1fr); }
+
+.tabla-scroll { overflow-x: auto; }
+
+.tarjetas {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.panel {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 1.25rem;
+  min-width: 0; // evita que el canvas desborde la grilla
+  h2 { margin: 0 0 .25rem; font-size: 1.15rem; }
+}
+
+.ayuda { margin: 0 0 1rem; color: var(--texto-suave); max-width: 70ch; }
+
+.dos-columnas {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+}
+
+.comparacion {
+  list-style: none; margin: .25rem 0 0; padding: 0;
+  li { display: flex; justify-content: space-between; padding: .2rem 0; border-bottom: 1px dashed var(--borde); }
+  strong { font-variant-numeric: tabular-nums; }
+}
+
+.tabla {
+  width: 100%; margin-top: 1rem; border-collapse: collapse; font-size: .9rem;
+  caption { text-align: left; font-weight: 600; margin-bottom: .4rem; }
+  th, td { text-align: left; padding: .4rem .5rem; border-bottom: 1px solid var(--borde); }
+  td { font-variant-numeric: tabular-nums; }
+  .actual { font-weight: 600; }
+}
+
+.minimos { margin: .75rem 0 0; padding-left: 1.1rem; color: var(--texto-suave); }
+
+.error { color: #e03131; }
+
+.esqueleto {
+  min-height: 120px; border-radius: 10px;
+  background: linear-gradient(90deg, var(--borde) 25%, var(--superficie) 50%, var(--borde) 75%);
+  background-size: 200% 100%;
+  animation: brillo 1.4s infinite;
+  &.alto { min-height: 320px; }
+}
+@keyframes brillo { to { background-position: -200% 0; } }
+
+@media (max-width: 600px) {
+  .tabla { font-size: .8rem; th, td { padding: .3rem; } }
+}

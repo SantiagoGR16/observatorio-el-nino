@@ -1,0 +1,126 @@
+<!-- Tarjetas resumen. @if (x; as y) guarda el valor en una variable local de plantilla. -->
+<section class="tarjetas" aria-label="Indicadores principales">
+  @if (tarjetaOni(); as t) {
+    <app-tarjeta-indicador titulo="Índice ONI (NOAA)" [valor]="t.valor" [detalle]="t.detalle" [acento]="t.acento" />
+  } @else {
+    <div class="esqueleto"></div>
+  }
+
+  @if (tarjetaEmbalses(); as t) {
+    <app-tarjeta-indicador titulo="Embalses del sistema (XM)" [valor]="t.valor" [detalle]="t.detalle" [acento]="COLORES.nina" />
+  } @else {
+    <div class="esqueleto"></div>
+  }
+
+  @if (mismaAltura().length) {
+    <app-tarjeta-indicador titulo="Embalses a la misma fecha" [acento]="COLORES.previa1">
+      <ul class="comparacion">
+        @for (m of mismaAltura(); track m.temporada) {
+          <li>
+            <span>El Niño {{ m.temporada }}</span>
+            <strong>{{ m.porcentaje === null ? '—' : fmt(m.porcentaje) + ' %' }}</strong>
+          </li>
+        }
+      </ul>
+    </app-tarjeta-indicador>
+  } @else {
+    <div class="esqueleto"></div>
+  }
+</section>
+
+<!-- ONI -->
+<section class="panel">
+  <h2>¿Qué tan fuerte es El Niño?</h2>
+  <p class="ayuda">
+    El ONI mide cuánto más caliente (o fría) está la superficie del Pacífico ecuatorial frente a lo normal.
+    Por encima de +0,5 °C durante 5 trimestres seguidos hay El Niño.
+  </p>
+  @if (datos.oni.hasValue()) {
+    @let oni = datos.oni.value()!;
+    <app-grafica-oni [serie]="oni.serie" />
+
+    <div class="tabla-scroll">
+    <table class="tabla">
+      <caption>Comparación con eventos anteriores al mismo trimestre ({{ oni.ultimo.trimestre.split(' ')[0] }})</caption>
+      <thead>
+        <tr><th>Evento</th><th>Anomalía en ese trimestre</th><th>Pico del evento</th><th>Duración</th></tr>
+      </thead>
+      <tbody>
+        <tr class="actual">
+          <td>2026–27 (actual)</td>
+          <td>{{ oni.ultimo.anomalia | number: '1.2-2' }} °C</td>
+          <td>{{ oni.ultimo.evento_actual?.pico | number: '1.2-2' }} °C hasta ahora</td>
+          <td>{{ oni.ultimo.evento_actual?.duracion_trimestres }} trimestres</td>
+        </tr>
+        @for (c of oni.comparacion_eventos; track c.evento) {
+          <tr>
+            <td>{{ c.evento }}</td>
+            <td>{{ c.anomalia_mismo_trimestre | number: '1.2-2' }} °C</td>
+            <td>{{ c.pico | number: '1.2-2' }} °C ({{ c.trimestre_pico }})</td>
+            <td>{{ c.duracion_trimestres }} trimestres</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+    </div>
+    <app-fuente-dato [fuentes]="fuenteOni()" [nota]="oni.metadatos.metodologia ?? ''" />
+  } @else if (datos.oni.error()) {
+    <p class="error" role="alert">No se pudieron cargar los datos del ONI.</p>
+  } @else {
+    <div class="esqueleto alto"></div>
+  }
+</section>
+
+<!-- Embalses: temporadas -->
+<section class="panel">
+  <h2>Embalses: ¿cómo vamos frente a El Niño anteriores?</h2>
+  <p class="ayuda">
+    Porcentaje de energía almacenada en los embalses del país. Cada línea es una temporada El Niño,
+    contada desde el 1 de julio. En 2016 y 2024 el punto más bajo llegó en abril.
+  </p>
+  @if (datos.embalses.hasValue()) {
+    @let emb = datos.embalses.value()!;
+    <app-grafica-embalses [temporadas]="emb.comparacion_temporadas.temporadas" />
+    <ul class="minimos">
+      @for (t of emb.comparacion_temporadas.temporadas; track t.temporada) {
+        @if (!t.es_actual && t.minimo) {
+          <li>Mínimo {{ t.temporada }}: <strong>{{ t.minimo.porcentaje | number: '1.1-1' }} %</strong> ({{ t.minimo.fecha }})</li>
+        }
+      }
+    </ul>
+    <app-fuente-dato [fuentes]="fuenteEmbalses()" [nota]="emb.metadatos.metodologia ?? ''" />
+  } @else if (datos.embalses.error()) {
+    <p class="error" role="alert">No se pudieron cargar los datos de embalses.</p>
+  } @else {
+    <div class="esqueleto alto"></div>
+  }
+</section>
+
+<!-- Regiones + mapa -->
+<div class="dos-columnas">
+  <section class="panel">
+    <h2>Embalses por región</h2>
+    @if (datos.embalses.hasValue()) {
+      @let emb = datos.embalses.value()!;
+      <p class="ayuda">Regiones hidrológicas de XM al {{ emb.ultimo.fecha }}.</p>
+      <app-grafica-regiones [regiones]="emb.regiones_ultimo" />
+      <app-fuente-dato [fuentes]="fuenteEmbalses()" />
+    } @else {
+      <div class="esqueleto alto"></div>
+    }
+  </section>
+
+  <section class="panel">
+    <h2>Mapa de Colombia</h2>
+    <p class="ayuda">Límites departamentales. La capa de riesgo por municipio llegará en la fase 3.</p>
+    @if (datos.departamentos.hasValue()) {
+      @let dptos = datos.departamentos.value()!;
+      <app-mapa-colombia [departamentos]="dptos" />
+      <app-fuente-dato [fuentes]="dptos.metadatos.fuentes" [nota]="dptos.metadatos.notas" />
+    } @else if (datos.departamentos.error()) {
+      <p class="error" role="alert">No se pudo cargar el mapa.</p>
+    } @else {
+      <div class="esqueleto alto"></div>
+    }
+  </section>
+</div>
