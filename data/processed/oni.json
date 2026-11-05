@@ -2,8 +2,8 @@
  "metadatos": {
   "fuente": "NOAA Climate Prediction Center — Oceanic Niño Index (ONI)",
   "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
-  "descargado_en": "2026-11-05T02:20:20Z",
-  "procesado_en": "2026-11-05T02:20:23Z",
+  "descargado_en": "2026-11-05T02:43:41Z",
+  "procesado_en": "2026-11-05T02:43:46Z",
   "unidad": "°C (anomalía de temperatura superficial del mar, región Niño 3.4)",
   "metodologia": "Evento si la anomalía es >= +0.5 (Niño) o <= -0.5 (Niña) por 5+ trimestres móviles consecutivos (criterio NOAA CPC). Intensidad por pico: débil 0.5–0.9, moderado 1.0–1.4, fuerte 1.5–1.9, muy fuerte >= 2.0 (convención común, no oficial de NOAA)."
  },

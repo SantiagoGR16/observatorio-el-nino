@@ -12,15 +12,24 @@ import argparse
 import logging
 from collections.abc import Callable
 
+from agents.analista import departamentos as analista_departamentos
 from agents.analista import embalses as analista_embalses
 from agents.analista import oni as analista_oni
 from agents.comun.resultado import Resultado
-from agents.recolector import noaa_oni, xm_embalses
+from agents.recolector import dane_departamentos, noaa_oni, xm_embalses
 
 log = logging.getLogger("pipeline")
 
-RECOLECTORES: list[Callable[[], Resultado]] = [noaa_oni.ejecutar, xm_embalses.ejecutar]
-ANALISTAS: list[Callable[[], Resultado]] = [analista_oni.ejecutar, analista_embalses.ejecutar]
+RECOLECTORES: list[Callable[[], Resultado]] = [
+    noaa_oni.ejecutar,
+    xm_embalses.ejecutar,
+    dane_departamentos.ejecutar,
+]
+ANALISTAS: list[Callable[[], Resultado]] = [
+    analista_oni.ejecutar,
+    analista_embalses.ejecutar,
+    analista_departamentos.ejecutar,
+]
 
 
 def correr(descargar: bool = True) -> list[Resultado]:

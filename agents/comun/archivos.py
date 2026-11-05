@@ -16,15 +16,20 @@ def ahora_utc() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def escribir_json(ruta: Path, datos: Any) -> Path:
+def escribir_json(ruta: Path, datos: Any, compacto: bool = False) -> Path:
     """Escribe JSON en UTF-8 de forma atómica (archivo temporal + renombrar).
 
     Si el proceso se corta a mitad de escritura, el archivo anterior queda intacto
-    en vez de quedar un JSON corrupto a medias.
+    en vez de quedar un JSON corrupto a medias. `compacto=True` omite espacios y
+    saltos de línea (útil para GeoJSON, donde la sangría triplica el tamaño).
     """
     ruta.parent.mkdir(parents=True, exist_ok=True)
     temporal = ruta.with_suffix(ruta.suffix + ".tmp")
-    temporal.write_text(json.dumps(datos, ensure_ascii=False, indent=1), encoding="utf-8")
+    if compacto:
+        texto = json.dumps(datos, ensure_ascii=False, separators=(",", ":"))
+    else:
+        texto = json.dumps(datos, ensure_ascii=False, indent=1)
+    temporal.write_text(texto, encoding="utf-8")
     temporal.replace(ruta)
     return ruta
 

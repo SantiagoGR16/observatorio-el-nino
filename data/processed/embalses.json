@@ -9,8 +9,8 @@
    "ListadoEmbalses"
   ],
   "descarga_mas_antigua": "2026-11-05T02:13:33Z",
-  "descarga_mas_reciente": "2026-11-05T02:20:22Z",
-  "procesado_en": "2026-11-05T02:20:23Z",
+  "descarga_mas_reciente": "2026-11-05T02:43:43Z",
+  "procesado_en": "2026-11-05T02:43:47Z",
   "unidad": "% del volumen útil (energía almacenada / capacidad útil)",
   "metodologia": "Sistema: cifra oficial de XM (PorcVoluUtilDiar). Regiones: suma de volumen útil en kWh / suma de capacidad útil en kWh de sus embalses (ponderado por capacidad). Temporadas comparadas desde el 1 de julio."
  },
