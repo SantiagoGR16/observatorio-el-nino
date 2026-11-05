@@ -1,0 +1,7942 @@
+{
+ "metadatos": {
+  "fuente": "NOAA Climate Prediction Center — Oceanic Niño Index (ONI)",
+  "url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+  "descargado_en": "2026-11-05T02:20:20Z",
+  "procesado_en": "2026-11-05T02:20:23Z",
+  "unidad": "°C (anomalía de temperatura superficial del mar, región Niño 3.4)",
+  "metodologia": "Evento si la anomalía es >= +0.5 (Niño) o <= -0.5 (Niña) por 5+ trimestres móviles consecutivos (criterio NOAA CPC). Intensidad por pico: débil 0.5–0.9, moderado 1.0–1.4, fuerte 1.5–1.9, muy fuerte >= 2.0 (convención común, no oficial de NOAA)."
+ },
+ "ultimo": {
+  "trimestre": "ASO 2026",
+  "fecha": "2026-09",
+  "anomalia": 2.46,
+  "fase": "El Niño",
+  "evento_actual": {
+   "tipo": "El Niño",
+   "estado": "en curso",
+   "inicio": "AMJ 2026",
+   "fin": "ASO 2026",
+   "fecha_inicio": "2026-05",
+   "fecha_fin": "2026-09",
+   "duracion_trimestres": 5,
+   "pico": 2.46,
+   "trimestre_pico": "ASO 2026",
+   "intensidad": "muy fuerte"
+  }
+ },
+ "comparacion_eventos": [
+  {
+   "evento": "1997–98",
+   "trimestre_comparado": "ASO 1997",
+   "anomalia_mismo_trimestre": 2.04,
+   "pico": 2.37,
+   "trimestre_pico": "NDJ 1997",
+   "duracion_trimestres": 12
+  },
+  {
+   "evento": "2015–16",
+   "trimestre_comparado": "ASO 2015",
+   "anomalia_mismo_trimestre": 2.02,
+   "pico": 2.59,
+   "trimestre_pico": "NDJ 2015",
+   "duracion_trimestres": 20
+  },
+  {
+   "evento": "2023–24",
+   "trimestre_comparado": "ASO 2023",
+   "anomalia_mismo_trimestre": 1.5,
+   "pico": 1.99,
+   "trimestre_pico": "NDJ 2023",
+   "duracion_trimestres": 11
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "DJF 1950",
+   "fin": "DJF 1951",
+   "fecha_inicio": "1950-01",
+   "fecha_fin": "1951-01",
+   "duracion_trimestres": 13,
+   "pico": -1.32,
+   "trimestre_pico": "DJF 1950",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MJJ 1951",
+   "fin": "DJF 1952",
+   "fecha_inicio": "1951-06",
+   "fecha_fin": "1952-01",
+   "duracion_trimestres": 8,
+   "pico": 1.03,
+   "trimestre_pico": "SON 1951",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MAM 1953",
+   "fin": "NDJ 1953",
+   "fecha_inicio": "1953-04",
+   "fecha_fin": "1953-12",
+   "duracion_trimestres": 9,
+   "pico": 0.78,
+   "trimestre_pico": "SON 1953",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "FMA 1955",
+   "fin": "MAM 1956",
+   "fecha_inicio": "1955-03",
+   "fecha_fin": "1956-04",
+   "duracion_trimestres": 14,
+   "pico": -1.59,
+   "trimestre_pico": "OND 1955",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MAM 1957",
+   "fin": "AMJ 1958",
+   "fecha_inicio": "1957-04",
+   "fecha_fin": "1958-05",
+   "duracion_trimestres": 14,
+   "pico": 1.69,
+   "trimestre_pico": "DJF 1958",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "JJA 1963",
+   "fin": "JFM 1964",
+   "fecha_inicio": "1963-07",
+   "fecha_fin": "1964-02",
+   "duracion_trimestres": 8,
+   "pico": 1.19,
+   "trimestre_pico": "OND 1963",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "AMJ 1964",
+   "fin": "DJF 1965",
+   "fecha_inicio": "1964-05",
+   "fecha_fin": "1965-01",
+   "duracion_trimestres": 9,
+   "pico": -0.8,
+   "trimestre_pico": "SON 1964",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MJJ 1965",
+   "fin": "FMA 1966",
+   "fecha_inicio": "1965-06",
+   "fecha_fin": "1966-03",
+   "duracion_trimestres": 10,
+   "pico": 1.82,
+   "trimestre_pico": "OND 1965",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "SON 1968",
+   "fin": "AMJ 1969",
+   "fecha_inicio": "1968-10",
+   "fecha_fin": "1969-05",
+   "duracion_trimestres": 8,
+   "pico": 0.98,
+   "trimestre_pico": "DJF 1969",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "JJA 1970",
+   "fin": "DJF 1972",
+   "fecha_inicio": "1970-07",
+   "fecha_fin": "1972-01",
+   "duracion_trimestres": 19,
+   "pico": -1.36,
+   "trimestre_pico": "JFM 1971",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MJJ 1972",
+   "fin": "FMA 1973",
+   "fecha_inicio": "1972-06",
+   "fecha_fin": "1973-03",
+   "duracion_trimestres": 10,
+   "pico": 1.84,
+   "trimestre_pico": "OND 1972",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "AMJ 1973",
+   "fin": "MJJ 1974",
+   "fecha_inicio": "1973-05",
+   "fecha_fin": "1974-06",
+   "duracion_trimestres": 14,
+   "pico": -2.04,
+   "trimestre_pico": "NDJ 1973",
+   "intensidad": "muy fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "SON 1974",
+   "fin": "FMA 1976",
+   "fecha_inicio": "1974-10",
+   "fecha_fin": "1976-03",
+   "duracion_trimestres": 18,
+   "pico": -1.58,
+   "trimestre_pico": "NDJ 1975",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "ASO 1976",
+   "fin": "JFM 1977",
+   "fecha_inicio": "1976-09",
+   "fecha_fin": "1977-02",
+   "duracion_trimestres": 6,
+   "pico": 0.84,
+   "trimestre_pico": "NDJ 1976",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "SON 1977",
+   "fin": "JFM 1978",
+   "fecha_inicio": "1977-10",
+   "fecha_fin": "1978-02",
+   "duracion_trimestres": 5,
+   "pico": 0.84,
+   "trimestre_pico": "OND 1977",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "AMJ 1982",
+   "fin": "MJJ 1983",
+   "fecha_inicio": "1982-05",
+   "fecha_fin": "1983-06",
+   "duracion_trimestres": 14,
+   "pico": 2.14,
+   "trimestre_pico": "DJF 1983",
+   "intensidad": "muy fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "SON 1983",
+   "fin": "JFM 1984",
+   "fecha_inicio": "1983-10",
+   "fecha_fin": "1984-02",
+   "duracion_trimestres": 5,
+   "pico": -0.96,
+   "trimestre_pico": "OND 1983",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "SON 1984",
+   "fin": "MJJ 1985",
+   "fecha_inicio": "1984-10",
+   "fecha_fin": "1985-06",
+   "duracion_trimestres": 9,
+   "pico": -1.06,
+   "trimestre_pico": "NDJ 1984",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "ASO 1986",
+   "fin": "DJF 1988",
+   "fecha_inicio": "1986-09",
+   "fecha_fin": "1988-01",
+   "duracion_trimestres": 17,
+   "pico": 1.49,
+   "trimestre_pico": "ASO 1987",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "AMJ 1988",
+   "fin": "AMJ 1989",
+   "fecha_inicio": "1988-05",
+   "fecha_fin": "1989-05",
+   "duracion_trimestres": 13,
+   "pico": -1.85,
+   "trimestre_pico": "NDJ 1988",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MJJ 1991",
+   "fin": "MJJ 1992",
+   "fecha_inicio": "1991-06",
+   "fecha_fin": "1992-06",
+   "duracion_trimestres": 13,
+   "pico": 1.54,
+   "trimestre_pico": "DJF 1992",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "SON 1994",
+   "fin": "JFM 1995",
+   "fecha_inicio": "1994-10",
+   "fecha_fin": "1995-02",
+   "duracion_trimestres": 5,
+   "pico": 0.97,
+   "trimestre_pico": "NDJ 1994",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "JAS 1995",
+   "fin": "FMA 1996",
+   "fecha_inicio": "1995-08",
+   "fecha_fin": "1996-03",
+   "duracion_trimestres": 8,
+   "pico": -1.05,
+   "trimestre_pico": "OND 1995",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "AMJ 1997",
+   "fin": "MAM 1998",
+   "fecha_inicio": "1997-05",
+   "fecha_fin": "1998-04",
+   "duracion_trimestres": 12,
+   "pico": 2.37,
+   "trimestre_pico": "NDJ 1997",
+   "intensidad": "muy fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "JJA 1998",
+   "fin": "MJJ 2000",
+   "fecha_inicio": "1998-07",
+   "fecha_fin": "2000-06",
+   "duracion_trimestres": 24,
+   "pico": -1.53,
+   "trimestre_pico": "NDJ 1999",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "SON 2000",
+   "fin": "JFM 2001",
+   "fecha_inicio": "2000-10",
+   "fecha_fin": "2001-02",
+   "duracion_trimestres": 5,
+   "pico": -0.78,
+   "trimestre_pico": "NDJ 2000",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "JJA 2002",
+   "fin": "JFM 2003",
+   "fecha_inicio": "2002-07",
+   "fecha_fin": "2003-02",
+   "duracion_trimestres": 8,
+   "pico": 1.19,
+   "trimestre_pico": "OND 2002",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "JAS 2004",
+   "fin": "JFM 2005",
+   "fecha_inicio": "2004-08",
+   "fecha_fin": "2005-02",
+   "duracion_trimestres": 7,
+   "pico": 0.71,
+   "trimestre_pico": "NDJ 2004",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "OND 2005",
+   "fin": "FMA 2006",
+   "fecha_inicio": "2005-11",
+   "fecha_fin": "2006-03",
+   "duracion_trimestres": 5,
+   "pico": -0.86,
+   "trimestre_pico": "DJF 2006",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "ASO 2006",
+   "fin": "DJF 2007",
+   "fecha_inicio": "2006-09",
+   "fecha_fin": "2007-01",
+   "duracion_trimestres": 5,
+   "pico": 0.88,
+   "trimestre_pico": "OND 2006",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "JAS 2007",
+   "fin": "MJJ 2008",
+   "fecha_inicio": "2007-08",
+   "fecha_fin": "2008-06",
+   "duracion_trimestres": 11,
+   "pico": -1.76,
+   "trimestre_pico": "DJF 2008",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "OND 2008",
+   "fin": "FMA 2009",
+   "fecha_inicio": "2008-11",
+   "fecha_fin": "2009-03",
+   "duracion_trimestres": 5,
+   "pico": -0.89,
+   "trimestre_pico": "DJF 2009",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "JJA 2009",
+   "fin": "FMA 2010",
+   "fecha_inicio": "2009-07",
+   "fecha_fin": "2010-03",
+   "duracion_trimestres": 9,
+   "pico": 1.5,
+   "trimestre_pico": "NDJ 2009",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "MJJ 2010",
+   "fin": "AMJ 2011",
+   "fecha_inicio": "2010-06",
+   "fecha_fin": "2011-05",
+   "duracion_trimestres": 12,
+   "pico": -1.57,
+   "trimestre_pico": "OND 2010",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "JAS 2011",
+   "fin": "JFM 2012",
+   "fecha_inicio": "2011-08",
+   "fecha_fin": "2012-02",
+   "duracion_trimestres": 7,
+   "pico": -1.02,
+   "trimestre_pico": "OND 2011",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "SON 2014",
+   "fin": "AMJ 2016",
+   "fecha_inicio": "2014-10",
+   "fecha_fin": "2016-05",
+   "duracion_trimestres": 20,
+   "pico": 2.59,
+   "trimestre_pico": "NDJ 2015",
+   "intensidad": "muy fuerte"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "OND 2017",
+   "fin": "FMA 2018",
+   "fecha_inicio": "2017-11",
+   "fecha_fin": "2018-03",
+   "duracion_trimestres": 5,
+   "pico": -0.76,
+   "trimestre_pico": "NDJ 2017",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "ASO 2018",
+   "fin": "MJJ 2019",
+   "fecha_inicio": "2018-09",
+   "fecha_fin": "2019-06",
+   "duracion_trimestres": 10,
+   "pico": 1.05,
+   "trimestre_pico": "NDJ 2018",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "SON 2019",
+   "fin": "FMA 2020",
+   "fecha_inicio": "2019-10",
+   "fecha_fin": "2020-03",
+   "duracion_trimestres": 6,
+   "pico": 0.75,
+   "trimestre_pico": "NDJ 2019",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "ASO 2020",
+   "fin": "MAM 2021",
+   "fecha_inicio": "2020-09",
+   "fecha_fin": "2021-04",
+   "duracion_trimestres": 8,
+   "pico": -1.11,
+   "trimestre_pico": "OND 2020",
+   "intensidad": "moderado"
+  },
+  {
+   "tipo": "La Niña",
+   "estado": "terminado",
+   "inicio": "ASO 2021",
+   "fin": "DJF 2023",
+   "fecha_inicio": "2021-09",
+   "fecha_fin": "2023-01",
+   "duracion_trimestres": 17,
+   "pico": -0.91,
+   "trimestre_pico": "OND 2021",
+   "intensidad": "débil"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "terminado",
+   "inicio": "MJJ 2023",
+   "fin": "MAM 2024",
+   "fecha_inicio": "2023-06",
+   "fecha_fin": "2024-04",
+   "duracion_trimestres": 11,
+   "pico": 1.99,
+   "trimestre_pico": "NDJ 2023",
+   "intensidad": "fuerte"
+  },
+  {
+   "tipo": "El Niño",
+   "estado": "en curso",
+   "inicio": "AMJ 2026",
+   "fin": "ASO 2026",
+   "fecha_inicio": "2026-05",
+   "fecha_fin": "2026-09",
+   "duracion_trimestres": 5,
+   "pico": 2.46,
+   "trimestre_pico": "ASO 2026",
+   "intensidad": "muy fuerte"
+  }
+ ],
+ "serie": [
+  {
+   "trimestre": "DJF",
+   "anio": 1950,
+   "fecha": "1950-01",
+   "total": 25.01,
+   "anomalia": -1.32,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1950,
+   "fecha": "1950-02",
+   "total": 25.36,
+   "anomalia": -1.2,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1950,
+   "fecha": "1950-03",
+   "total": 25.88,
+   "anomalia": -1.12,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1950,
+   "fecha": "1950-04",
+   "total": 26.24,
+   "anomalia": -1.08,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1950,
+   "fecha": "1950-05",
+   "total": 26.35,
+   "anomalia": -1.1,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1950,
+   "fecha": "1950-06",
+   "total": 26.32,
+   "anomalia": -0.9,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1950,
+   "fecha": "1950-07",
+   "total": 26.24,
+   "anomalia": -0.62,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1950,
+   "fecha": "1950-08",
+   "total": 25.94,
+   "anomalia": -0.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1950,
+   "fecha": "1950-09",
+   "total": 25.76,
+   "anomalia": -0.56,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1950,
+   "fecha": "1950-10",
+   "total": 25.6,
+   "anomalia": -0.62,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1950,
+   "fecha": "1950-11",
+   "total": 25.55,
+   "anomalia": -0.66,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1950,
+   "fecha": "1950-12",
+   "total": 25.41,
+   "anomalia": -0.79,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1951,
+   "fecha": "1951-01",
+   "total": 25.67,
+   "anomalia": -0.66,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1951,
+   "fecha": "1951-02",
+   "total": 26.2,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1951,
+   "fecha": "1951-03",
+   "total": 26.96,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1951,
+   "fecha": "1951-04",
+   "total": 27.48,
+   "anomalia": 0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1951,
+   "fecha": "1951-05",
+   "total": 27.72,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1951,
+   "fecha": "1951-06",
+   "total": 27.72,
+   "anomalia": 0.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1951,
+   "fecha": "1951-07",
+   "total": 27.57,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1951,
+   "fecha": "1951-08",
+   "total": 27.41,
+   "anomalia": 0.9,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1951,
+   "fecha": "1951-09",
+   "total": 27.34,
+   "anomalia": 1.02,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1951,
+   "fecha": "1951-10",
+   "total": 27.25,
+   "anomalia": 1.03,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1951,
+   "fecha": "1951-11",
+   "total": 27.18,
+   "anomalia": 0.96,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1951,
+   "fecha": "1951-12",
+   "total": 26.91,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1952,
+   "fecha": "1952-01",
+   "total": 26.86,
+   "anomalia": 0.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1952,
+   "fecha": "1952-02",
+   "total": 26.82,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1952,
+   "fecha": "1952-03",
+   "total": 27.33,
+   "anomalia": 0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1952,
+   "fecha": "1952-04",
+   "total": 27.5,
+   "anomalia": 0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1952,
+   "fecha": "1952-05",
+   "total": 27.38,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1952,
+   "fecha": "1952-06",
+   "total": 26.78,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1952,
+   "fecha": "1952-07",
+   "total": 26.41,
+   "anomalia": -0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1952,
+   "fecha": "1952-08",
+   "total": 26.31,
+   "anomalia": -0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1952,
+   "fecha": "1952-09",
+   "total": 26.35,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1952,
+   "fecha": "1952-10",
+   "total": 26.26,
+   "anomalia": 0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1952,
+   "fecha": "1952-11",
+   "total": 26.11,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1952,
+   "fecha": "1952-12",
+   "total": 26.25,
+   "anomalia": 0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1953,
+   "fecha": "1953-01",
+   "total": 26.58,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1953,
+   "fecha": "1953-02",
+   "total": 27.06,
+   "anomalia": 0.5,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1953,
+   "fecha": "1953-03",
+   "total": 27.48,
+   "anomalia": 0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1953,
+   "fecha": "1953-04",
+   "total": 27.88,
+   "anomalia": 0.56,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1953,
+   "fecha": "1953-05",
+   "total": 28.22,
+   "anomalia": 0.77,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1953,
+   "fecha": "1953-06",
+   "total": 27.96,
+   "anomalia": 0.74,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1953,
+   "fecha": "1953-07",
+   "total": 27.49,
+   "anomalia": 0.63,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1953,
+   "fecha": "1953-08",
+   "total": 27.19,
+   "anomalia": 0.68,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1953,
+   "fecha": "1953-09",
+   "total": 26.91,
+   "anomalia": 0.59,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1953,
+   "fecha": "1953-10",
+   "total": 27.0,
+   "anomalia": 0.78,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1953,
+   "fecha": "1953-11",
+   "total": 26.74,
+   "anomalia": 0.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1953,
+   "fecha": "1953-12",
+   "total": 26.76,
+   "anomalia": 0.56,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1954,
+   "fecha": "1954-01",
+   "total": 26.74,
+   "anomalia": 0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1954,
+   "fecha": "1954-02",
+   "total": 26.91,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1954,
+   "fecha": "1954-03",
+   "total": 27.01,
+   "anomalia": 0.01,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1954,
+   "fecha": "1954-04",
+   "total": 27.04,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1954,
+   "fecha": "1954-05",
+   "total": 26.97,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1954,
+   "fecha": "1954-06",
+   "total": 26.74,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1954,
+   "fecha": "1954-07",
+   "total": 26.18,
+   "anomalia": -0.67,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1954,
+   "fecha": "1954-08",
+   "total": 25.68,
+   "anomalia": -0.83,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1954,
+   "fecha": "1954-09",
+   "total": 25.58,
+   "anomalia": -0.73,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1954,
+   "fecha": "1954-10",
+   "total": 25.7,
+   "anomalia": -0.52,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1954,
+   "fecha": "1954-11",
+   "total": 25.82,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1954,
+   "fecha": "1954-12",
+   "total": 25.76,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1955,
+   "fecha": "1955-01",
+   "total": 25.83,
+   "anomalia": -0.5,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1955,
+   "fecha": "1955-02",
+   "total": 26.08,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1955,
+   "fecha": "1955-03",
+   "total": 26.42,
+   "anomalia": -0.58,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1955,
+   "fecha": "1955-04",
+   "total": 26.56,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1955,
+   "fecha": "1955-05",
+   "total": 26.67,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1955,
+   "fecha": "1955-06",
+   "total": 26.34,
+   "anomalia": -0.88,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1955,
+   "fecha": "1955-07",
+   "total": 26.13,
+   "anomalia": -0.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1955,
+   "fecha": "1955-08",
+   "total": 25.59,
+   "anomalia": -0.92,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1955,
+   "fecha": "1955-09",
+   "total": 25.21,
+   "anomalia": -1.11,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1955,
+   "fecha": "1955-10",
+   "total": 24.78,
+   "anomalia": -1.44,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1955,
+   "fecha": "1955-11",
+   "total": 24.63,
+   "anomalia": -1.59,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1955,
+   "fecha": "1955-12",
+   "total": 24.73,
+   "anomalia": -1.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1956,
+   "fecha": "1956-01",
+   "total": 25.2,
+   "anomalia": -1.17,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1956,
+   "fecha": "1956-02",
+   "total": 25.82,
+   "anomalia": -0.81,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1956,
+   "fecha": "1956-03",
+   "total": 26.47,
+   "anomalia": -0.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1956,
+   "fecha": "1956-04",
+   "total": 26.84,
+   "anomalia": -0.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1956,
+   "fecha": "1956-05",
+   "total": 27.0,
+   "anomalia": -0.49,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1956,
+   "fecha": "1956-06",
+   "total": 26.81,
+   "anomalia": -0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1956,
+   "fecha": "1956-07",
+   "total": 26.37,
+   "anomalia": -0.55,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1956,
+   "fecha": "1956-08",
+   "total": 26.02,
+   "anomalia": -0.52,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1956,
+   "fecha": "1956-09",
+   "total": 25.9,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1956,
+   "fecha": "1956-10",
+   "total": 25.85,
+   "anomalia": -0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1956,
+   "fecha": "1956-11",
+   "total": 25.87,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1956,
+   "fecha": "1956-12",
+   "total": 25.87,
+   "anomalia": -0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1957,
+   "fecha": "1957-01",
+   "total": 26.11,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1957,
+   "fecha": "1957-02",
+   "total": 26.57,
+   "anomalia": -0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1957,
+   "fecha": "1957-03",
+   "total": 27.3,
+   "anomalia": 0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1957,
+   "fecha": "1957-04",
+   "total": 27.99,
+   "anomalia": 0.63,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1957,
+   "fecha": "1957-05",
+   "total": 28.21,
+   "anomalia": 0.72,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1957,
+   "fecha": "1957-06",
+   "total": 28.09,
+   "anomalia": 0.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1957,
+   "fecha": "1957-07",
+   "total": 27.88,
+   "anomalia": 0.96,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1957,
+   "fecha": "1957-08",
+   "total": 27.57,
+   "anomalia": 1.03,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1957,
+   "fecha": "1957-09",
+   "total": 27.45,
+   "anomalia": 1.12,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1957,
+   "fecha": "1957-10",
+   "total": 27.38,
+   "anomalia": 1.15,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1957,
+   "fecha": "1957-11",
+   "total": 27.63,
+   "anomalia": 1.39,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1957,
+   "fecha": "1957-12",
+   "total": 27.87,
+   "anomalia": 1.62,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1958,
+   "fecha": "1958-01",
+   "total": 28.07,
+   "anomalia": 1.69,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1958,
+   "fecha": "1958-02",
+   "total": 28.21,
+   "anomalia": 1.59,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1958,
+   "fecha": "1958-03",
+   "total": 28.21,
+   "anomalia": 1.17,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1958,
+   "fecha": "1958-04",
+   "total": 28.2,
+   "anomalia": 0.84,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1958,
+   "fecha": "1958-05",
+   "total": 28.06,
+   "anomalia": 0.57,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1958,
+   "fecha": "1958-06",
+   "total": 27.77,
+   "anomalia": 0.49,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1958,
+   "fecha": "1958-07",
+   "total": 27.36,
+   "anomalia": 0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1958,
+   "fecha": "1958-08",
+   "total": 26.86,
+   "anomalia": 0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1958,
+   "fecha": "1958-09",
+   "total": 26.61,
+   "anomalia": 0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1958,
+   "fecha": "1958-10",
+   "total": 26.53,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1958,
+   "fecha": "1958-11",
+   "total": 26.6,
+   "anomalia": 0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1958,
+   "fecha": "1958-12",
+   "total": 26.82,
+   "anomalia": 0.56,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1959,
+   "fecha": "1959-01",
+   "total": 26.99,
+   "anomalia": 0.6,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1959,
+   "fecha": "1959-02",
+   "total": 27.27,
+   "anomalia": 0.64,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1959,
+   "fecha": "1959-03",
+   "total": 27.51,
+   "anomalia": 0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1959,
+   "fecha": "1959-04",
+   "total": 27.75,
+   "anomalia": 0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1959,
+   "fecha": "1959-05",
+   "total": 27.73,
+   "anomalia": 0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1959,
+   "fecha": "1959-06",
+   "total": 27.29,
+   "anomalia": 0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1959,
+   "fecha": "1959-07",
+   "total": 26.74,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1959,
+   "fecha": "1959-08",
+   "total": 26.31,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1959,
+   "fecha": "1959-09",
+   "total": 26.29,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1959,
+   "fecha": "1959-10",
+   "total": 26.34,
+   "anomalia": 0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1959,
+   "fecha": "1959-11",
+   "total": 26.47,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1959,
+   "fecha": "1959-12",
+   "total": 26.4,
+   "anomalia": 0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1960,
+   "fecha": "1960-01",
+   "total": 26.4,
+   "anomalia": 0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1960,
+   "fecha": "1960-02",
+   "total": 26.65,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1960,
+   "fecha": "1960-03",
+   "total": 27.1,
+   "anomalia": 0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1960,
+   "fecha": "1960-04",
+   "total": 27.52,
+   "anomalia": 0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1960,
+   "fecha": "1960-05",
+   "total": 27.53,
+   "anomalia": 0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1960,
+   "fecha": "1960-06",
+   "total": 27.27,
+   "anomalia": 0.0,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1960,
+   "fecha": "1960-07",
+   "total": 26.93,
+   "anomalia": 0.01,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1960,
+   "fecha": "1960-08",
+   "total": 26.69,
+   "anomalia": 0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1960,
+   "fecha": "1960-09",
+   "total": 26.52,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1960,
+   "fecha": "1960-10",
+   "total": 26.32,
+   "anomalia": 0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1960,
+   "fecha": "1960-11",
+   "total": 26.17,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1960,
+   "fecha": "1960-12",
+   "total": 26.16,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1961,
+   "fecha": "1961-01",
+   "total": 26.34,
+   "anomalia": 0.0,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1961,
+   "fecha": "1961-02",
+   "total": 26.6,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1961,
+   "fecha": "1961-03",
+   "total": 26.98,
+   "anomalia": 0.01,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1961,
+   "fecha": "1961-04",
+   "total": 27.33,
+   "anomalia": 0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1961,
+   "fecha": "1961-05",
+   "total": 27.62,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1961,
+   "fecha": "1961-06",
+   "total": 27.41,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1961,
+   "fecha": "1961-07",
+   "total": 26.94,
+   "anomalia": 0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1961,
+   "fecha": "1961-08",
+   "total": 26.32,
+   "anomalia": -0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1961,
+   "fecha": "1961-09",
+   "total": 26.01,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1961,
+   "fecha": "1961-10",
+   "total": 26.02,
+   "anomalia": -0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1961,
+   "fecha": "1961-11",
+   "total": 26.09,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1961,
+   "fecha": "1961-12",
+   "total": 26.14,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1962,
+   "fecha": "1962-01",
+   "total": 26.16,
+   "anomalia": -0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1962,
+   "fecha": "1962-02",
+   "total": 26.4,
+   "anomalia": -0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1962,
+   "fecha": "1962-03",
+   "total": 26.83,
+   "anomalia": -0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1962,
+   "fecha": "1962-04",
+   "total": 27.09,
+   "anomalia": -0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1962,
+   "fecha": "1962-05",
+   "total": 27.21,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1962,
+   "fecha": "1962-06",
+   "total": 27.06,
+   "anomalia": -0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1962,
+   "fecha": "1962-07",
+   "total": 26.85,
+   "anomalia": 0.0,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1962,
+   "fecha": "1962-08",
+   "total": 26.42,
+   "anomalia": -0.1,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1962,
+   "fecha": "1962-09",
+   "total": 26.17,
+   "anomalia": -0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1962,
+   "fecha": "1962-10",
+   "total": 25.98,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1962,
+   "fecha": "1962-11",
+   "total": 25.95,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1962,
+   "fecha": "1962-12",
+   "total": 25.87,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1963,
+   "fecha": "1963-01",
+   "total": 25.98,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1963,
+   "fecha": "1963-02",
+   "total": 26.4,
+   "anomalia": -0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1963,
+   "fecha": "1963-03",
+   "total": 26.99,
+   "anomalia": 0.01,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1963,
+   "fecha": "1963-04",
+   "total": 27.41,
+   "anomalia": 0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1963,
+   "fecha": "1963-05",
+   "total": 27.52,
+   "anomalia": 0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1963,
+   "fecha": "1963-06",
+   "total": 27.64,
+   "anomalia": 0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1963,
+   "fecha": "1963-07",
+   "total": 27.61,
+   "anomalia": 0.76,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1963,
+   "fecha": "1963-08",
+   "total": 27.61,
+   "anomalia": 1.09,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1963,
+   "fecha": "1963-09",
+   "total": 27.42,
+   "anomalia": 1.09,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1963,
+   "fecha": "1963-10",
+   "total": 27.37,
+   "anomalia": 1.13,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1963,
+   "fecha": "1963-11",
+   "total": 27.39,
+   "anomalia": 1.19,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1963,
+   "fecha": "1963-12",
+   "total": 27.33,
+   "anomalia": 1.13,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1964,
+   "fecha": "1964-01",
+   "total": 27.26,
+   "anomalia": 0.95,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1964,
+   "fecha": "1964-02",
+   "total": 27.09,
+   "anomalia": 0.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1964,
+   "fecha": "1964-03",
+   "total": 27.04,
+   "anomalia": 0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1964,
+   "fecha": "1964-04",
+   "total": 26.93,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1964,
+   "fecha": "1964-05",
+   "total": 26.8,
+   "anomalia": -0.6,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1964,
+   "fecha": "1964-06",
+   "total": 26.53,
+   "anomalia": -0.66,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1964,
+   "fecha": "1964-07",
+   "total": 26.19,
+   "anomalia": -0.67,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1964,
+   "fecha": "1964-08",
+   "total": 25.82,
+   "anomalia": -0.7,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1964,
+   "fecha": "1964-09",
+   "total": 25.6,
+   "anomalia": -0.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1964,
+   "fecha": "1964-10",
+   "total": 25.44,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1964,
+   "fecha": "1964-11",
+   "total": 25.41,
+   "anomalia": -0.79,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1964,
+   "fecha": "1964-12",
+   "total": 25.45,
+   "anomalia": -0.75,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1965,
+   "fecha": "1965-01",
+   "total": 25.8,
+   "anomalia": -0.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1965,
+   "fecha": "1965-02",
+   "total": 26.32,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1965,
+   "fecha": "1965-03",
+   "total": 26.93,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1965,
+   "fecha": "1965-04",
+   "total": 27.45,
+   "anomalia": 0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1965,
+   "fecha": "1965-05",
+   "total": 27.86,
+   "anomalia": 0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1965,
+   "fecha": "1965-06",
+   "total": 27.98,
+   "anomalia": 0.79,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1965,
+   "fecha": "1965-07",
+   "total": 27.95,
+   "anomalia": 1.1,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1965,
+   "fecha": "1965-08",
+   "total": 27.79,
+   "anomalia": 1.27,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1965,
+   "fecha": "1965-09",
+   "total": 27.87,
+   "anomalia": 1.55,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1965,
+   "fecha": "1965-10",
+   "total": 27.93,
+   "anomalia": 1.7,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1965,
+   "fecha": "1965-11",
+   "total": 28.02,
+   "anomalia": 1.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1965,
+   "fecha": "1965-12",
+   "total": 27.83,
+   "anomalia": 1.6,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1966,
+   "fecha": "1966-01",
+   "total": 27.61,
+   "anomalia": 1.24,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1966,
+   "fecha": "1966-02",
+   "total": 27.6,
+   "anomalia": 0.95,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1966,
+   "fecha": "1966-03",
+   "total": 27.79,
+   "anomalia": 0.76,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1966,
+   "fecha": "1966-04",
+   "total": 27.77,
+   "anomalia": 0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1966,
+   "fecha": "1966-05",
+   "total": 27.68,
+   "anomalia": 0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1966,
+   "fecha": "1966-06",
+   "total": 27.44,
+   "anomalia": 0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1966,
+   "fecha": "1966-07",
+   "total": 27.18,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1966,
+   "fecha": "1966-08",
+   "total": 26.73,
+   "anomalia": 0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1966,
+   "fecha": "1966-09",
+   "total": 26.34,
+   "anomalia": -0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1966,
+   "fecha": "1966-10",
+   "total": 26.27,
+   "anomalia": -0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1966,
+   "fecha": "1966-11",
+   "total": 26.17,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1966,
+   "fecha": "1966-12",
+   "total": 26.02,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1967,
+   "fecha": "1967-01",
+   "total": 25.97,
+   "anomalia": -0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1967,
+   "fecha": "1967-02",
+   "total": 26.18,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1967,
+   "fecha": "1967-03",
+   "total": 26.53,
+   "anomalia": -0.5,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1967,
+   "fecha": "1967-04",
+   "total": 26.97,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1967,
+   "fecha": "1967-05",
+   "total": 27.3,
+   "anomalia": -0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1967,
+   "fecha": "1967-06",
+   "total": 27.31,
+   "anomalia": 0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1967,
+   "fecha": "1967-07",
+   "total": 26.92,
+   "anomalia": -0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1967,
+   "fecha": "1967-08",
+   "total": 26.33,
+   "anomalia": -0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1967,
+   "fecha": "1967-09",
+   "total": 26.03,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1967,
+   "fecha": "1967-10",
+   "total": 25.99,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1967,
+   "fecha": "1967-11",
+   "total": 26.03,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1967,
+   "fecha": "1967-12",
+   "total": 25.95,
+   "anomalia": -0.42,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1968,
+   "fecha": "1968-01",
+   "total": 25.81,
+   "anomalia": -0.62,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1968,
+   "fecha": "1968-02",
+   "total": 25.92,
+   "anomalia": -0.73,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1968,
+   "fecha": "1968-03",
+   "total": 26.41,
+   "anomalia": -0.63,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1968,
+   "fecha": "1968-04",
+   "total": 26.85,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1968,
+   "fecha": "1968-05",
+   "total": 27.35,
+   "anomalia": -0.1,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1968,
+   "fecha": "1968-06",
+   "total": 27.43,
+   "anomalia": 0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1968,
+   "fecha": "1968-07",
+   "total": 27.37,
+   "anomalia": 0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1968,
+   "fecha": "1968-08",
+   "total": 26.97,
+   "anomalia": 0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1968,
+   "fecha": "1968-09",
+   "total": 26.78,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1968,
+   "fecha": "1968-10",
+   "total": 26.9,
+   "anomalia": 0.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1968,
+   "fecha": "1968-11",
+   "total": 27.06,
+   "anomalia": 0.66,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1968,
+   "fecha": "1968-12",
+   "total": 27.3,
+   "anomalia": 0.93,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1969,
+   "fecha": "1969-01",
+   "total": 27.42,
+   "anomalia": 0.98,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1969,
+   "fecha": "1969-02",
+   "total": 27.63,
+   "anomalia": 0.98,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1969,
+   "fecha": "1969-03",
+   "total": 27.8,
+   "anomalia": 0.77,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1969,
+   "fecha": "1969-04",
+   "total": 28.02,
+   "anomalia": 0.69,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1969,
+   "fecha": "1969-05",
+   "total": 28.06,
+   "anomalia": 0.62,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1969,
+   "fecha": "1969-06",
+   "total": 27.74,
+   "anomalia": 0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1969,
+   "fecha": "1969-07",
+   "total": 27.3,
+   "anomalia": 0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1969,
+   "fecha": "1969-08",
+   "total": 27.0,
+   "anomalia": 0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1969,
+   "fecha": "1969-09",
+   "total": 27.04,
+   "anomalia": 0.61,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1969,
+   "fecha": "1969-10",
+   "total": 27.11,
+   "anomalia": 0.71,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1969,
+   "fecha": "1969-11",
+   "total": 27.21,
+   "anomalia": 0.81,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1969,
+   "fecha": "1969-12",
+   "total": 27.08,
+   "anomalia": 0.71,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1970,
+   "fecha": "1970-01",
+   "total": 26.89,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1970,
+   "fecha": "1970-02",
+   "total": 26.89,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1970,
+   "fecha": "1970-03",
+   "total": 27.27,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1970,
+   "fecha": "1970-04",
+   "total": 27.61,
+   "anomalia": 0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1970,
+   "fecha": "1970-05",
+   "total": 27.56,
+   "anomalia": 0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1970,
+   "fecha": "1970-06",
+   "total": 27.0,
+   "anomalia": -0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1970,
+   "fecha": "1970-07",
+   "total": 26.38,
+   "anomalia": -0.55,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1970,
+   "fecha": "1970-08",
+   "total": 25.88,
+   "anomalia": -0.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1970,
+   "fecha": "1970-09",
+   "total": 25.74,
+   "anomalia": -0.69,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1970,
+   "fecha": "1970-10",
+   "total": 25.67,
+   "anomalia": -0.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1970,
+   "fecha": "1970-11",
+   "total": 25.61,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1970,
+   "fecha": "1970-12",
+   "total": 25.29,
+   "anomalia": -1.1,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1971,
+   "fecha": "1971-01",
+   "total": 25.17,
+   "anomalia": -1.29,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1971,
+   "fecha": "1971-02",
+   "total": 25.34,
+   "anomalia": -1.36,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1971,
+   "fecha": "1971-03",
+   "total": 25.97,
+   "anomalia": -1.08,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1971,
+   "fecha": "1971-04",
+   "total": 26.55,
+   "anomalia": -0.81,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1971,
+   "fecha": "1971-05",
+   "total": 26.76,
+   "anomalia": -0.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1971,
+   "fecha": "1971-06",
+   "total": 26.62,
+   "anomalia": -0.69,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1971,
+   "fecha": "1971-07",
+   "total": 26.3,
+   "anomalia": -0.68,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1971,
+   "fecha": "1971-08",
+   "total": 26.05,
+   "anomalia": -0.6,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1971,
+   "fecha": "1971-09",
+   "total": 25.81,
+   "anomalia": -0.68,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1971,
+   "fecha": "1971-10",
+   "total": 25.68,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1971,
+   "fecha": "1971-11",
+   "total": 25.59,
+   "anomalia": -0.86,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1971,
+   "fecha": "1971-12",
+   "total": 25.65,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1972,
+   "fecha": "1972-01",
+   "total": 25.92,
+   "anomalia": -0.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1972,
+   "fecha": "1972-02",
+   "total": 26.42,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1972,
+   "fecha": "1972-03",
+   "total": 27.09,
+   "anomalia": 0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1972,
+   "fecha": "1972-04",
+   "total": 27.61,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1972,
+   "fecha": "1972-05",
+   "total": 27.96,
+   "anomalia": 0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1972,
+   "fecha": "1972-06",
+   "total": 28.0,
+   "anomalia": 0.7,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1972,
+   "fecha": "1972-07",
+   "total": 27.98,
+   "anomalia": 1.0,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1972,
+   "fecha": "1972-08",
+   "total": 27.91,
+   "anomalia": 1.26,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1972,
+   "fecha": "1972-09",
+   "total": 27.98,
+   "anomalia": 1.49,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1972,
+   "fecha": "1972-10",
+   "total": 28.14,
+   "anomalia": 1.69,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1972,
+   "fecha": "1972-11",
+   "total": 28.3,
+   "anomalia": 1.84,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1972,
+   "fecha": "1972-12",
+   "total": 28.2,
+   "anomalia": 1.77,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1973,
+   "fecha": "1973-01",
+   "total": 28.03,
+   "anomalia": 1.55,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1973,
+   "fecha": "1973-02",
+   "total": 27.82,
+   "anomalia": 1.13,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1973,
+   "fecha": "1973-03",
+   "total": 27.61,
+   "anomalia": 0.56,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1973,
+   "fecha": "1973-04",
+   "total": 27.33,
+   "anomalia": -0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1973,
+   "fecha": "1973-05",
+   "total": 26.97,
+   "anomalia": -0.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1973,
+   "fecha": "1973-06",
+   "total": 26.51,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1973,
+   "fecha": "1973-07",
+   "total": 25.99,
+   "anomalia": -0.99,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1973,
+   "fecha": "1973-08",
+   "total": 25.54,
+   "anomalia": -1.11,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1973,
+   "fecha": "1973-09",
+   "total": 25.23,
+   "anomalia": -1.26,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1973,
+   "fecha": "1973-10",
+   "total": 24.87,
+   "anomalia": -1.58,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1973,
+   "fecha": "1973-11",
+   "total": 24.57,
+   "anomalia": -1.89,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1973,
+   "fecha": "1973-12",
+   "total": 24.39,
+   "anomalia": -2.04,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1974,
+   "fecha": "1974-01",
+   "total": 24.61,
+   "anomalia": -1.87,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1974,
+   "fecha": "1974-02",
+   "total": 25.1,
+   "anomalia": -1.59,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1974,
+   "fecha": "1974-03",
+   "total": 25.82,
+   "anomalia": -1.24,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1974,
+   "fecha": "1974-04",
+   "total": 26.37,
+   "anomalia": -0.99,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1974,
+   "fecha": "1974-05",
+   "total": 26.77,
+   "anomalia": -0.71,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1974,
+   "fecha": "1974-06",
+   "total": 26.67,
+   "anomalia": -0.64,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1974,
+   "fecha": "1974-07",
+   "total": 26.52,
+   "anomalia": -0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1974,
+   "fecha": "1974-08",
+   "total": 26.25,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1974,
+   "fecha": "1974-09",
+   "total": 26.02,
+   "anomalia": -0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1974,
+   "fecha": "1974-10",
+   "total": 25.76,
+   "anomalia": -0.69,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1974,
+   "fecha": "1974-11",
+   "total": 25.57,
+   "anomalia": -0.88,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1974,
+   "fecha": "1974-12",
+   "total": 25.72,
+   "anomalia": -0.71,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1975,
+   "fecha": "1975-01",
+   "total": 25.92,
+   "anomalia": -0.56,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1975,
+   "fecha": "1975-02",
+   "total": 26.15,
+   "anomalia": -0.55,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1975,
+   "fecha": "1975-03",
+   "total": 26.44,
+   "anomalia": -0.61,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1975,
+   "fecha": "1975-04",
+   "total": 26.7,
+   "anomalia": -0.66,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1975,
+   "fecha": "1975-05",
+   "total": 26.68,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1975,
+   "fecha": "1975-06",
+   "total": 26.39,
+   "anomalia": -0.92,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1975,
+   "fecha": "1975-07",
+   "total": 25.9,
+   "anomalia": -1.08,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1975,
+   "fecha": "1975-08",
+   "total": 25.54,
+   "anomalia": -1.12,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1975,
+   "fecha": "1975-09",
+   "total": 25.2,
+   "anomalia": -1.29,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1975,
+   "fecha": "1975-10",
+   "total": 25.14,
+   "anomalia": -1.32,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1975,
+   "fecha": "1975-11",
+   "total": 24.98,
+   "anomalia": -1.47,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1975,
+   "fecha": "1975-12",
+   "total": 24.84,
+   "anomalia": -1.58,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1976,
+   "fecha": "1976-01",
+   "total": 24.98,
+   "anomalia": -1.49,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1976,
+   "fecha": "1976-02",
+   "total": 25.55,
+   "anomalia": -1.11,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1976,
+   "fecha": "1976-03",
+   "total": 26.37,
+   "anomalia": -0.65,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1976,
+   "fecha": "1976-04",
+   "total": 26.87,
+   "anomalia": -0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1976,
+   "fecha": "1976-05",
+   "total": 27.21,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1976,
+   "fecha": "1976-06",
+   "total": 27.28,
+   "anomalia": 0.0,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1976,
+   "fecha": "1976-07",
+   "total": 27.21,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1976,
+   "fecha": "1976-08",
+   "total": 27.09,
+   "anomalia": 0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1976,
+   "fecha": "1976-09",
+   "total": 27.13,
+   "anomalia": 0.6,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1976,
+   "fecha": "1976-10",
+   "total": 27.28,
+   "anomalia": 0.79,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1976,
+   "fecha": "1976-11",
+   "total": 27.28,
+   "anomalia": 0.81,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1976,
+   "fecha": "1976-12",
+   "total": 27.28,
+   "anomalia": 0.84,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1977,
+   "fecha": "1977-01",
+   "total": 27.19,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1977,
+   "fecha": "1977-02",
+   "total": 27.33,
+   "anomalia": 0.66,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1977,
+   "fecha": "1977-03",
+   "total": 27.35,
+   "anomalia": 0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1977,
+   "fecha": "1977-04",
+   "total": 27.58,
+   "anomalia": 0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1977,
+   "fecha": "1977-05",
+   "total": 27.7,
+   "anomalia": 0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1977,
+   "fecha": "1977-06",
+   "total": 27.75,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1977,
+   "fecha": "1977-07",
+   "total": 27.37,
+   "anomalia": 0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1977,
+   "fecha": "1977-08",
+   "total": 27.04,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1977,
+   "fecha": "1977-09",
+   "total": 26.97,
+   "anomalia": 0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1977,
+   "fecha": "1977-10",
+   "total": 27.17,
+   "anomalia": 0.68,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1977,
+   "fecha": "1977-11",
+   "total": 27.31,
+   "anomalia": 0.84,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1977,
+   "fecha": "1977-12",
+   "total": 27.25,
+   "anomalia": 0.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1978,
+   "fecha": "1978-01",
+   "total": 27.18,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1978,
+   "fecha": "1978-02",
+   "total": 27.19,
+   "anomalia": 0.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1978,
+   "fecha": "1978-03",
+   "total": 27.19,
+   "anomalia": 0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1978,
+   "fecha": "1978-04",
+   "total": 27.26,
+   "anomalia": -0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1978,
+   "fecha": "1978-05",
+   "total": 27.17,
+   "anomalia": -0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1978,
+   "fecha": "1978-06",
+   "total": 27.05,
+   "anomalia": -0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1978,
+   "fecha": "1978-07",
+   "total": 26.61,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1978,
+   "fecha": "1978-08",
+   "total": 26.32,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1978,
+   "fecha": "1978-09",
+   "total": 26.08,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1978,
+   "fecha": "1978-10",
+   "total": 26.22,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1978,
+   "fecha": "1978-11",
+   "total": 26.4,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1978,
+   "fecha": "1978-12",
+   "total": 26.54,
+   "anomalia": 0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1979,
+   "fecha": "1979-01",
+   "total": 26.67,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1979,
+   "fecha": "1979-02",
+   "total": 26.88,
+   "anomalia": 0.21,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1979,
+   "fecha": "1979-03",
+   "total": 27.31,
+   "anomalia": 0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1979,
+   "fecha": "1979-04",
+   "total": 27.64,
+   "anomalia": 0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1979,
+   "fecha": "1979-05",
+   "total": 27.73,
+   "anomalia": 0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1979,
+   "fecha": "1979-06",
+   "total": 27.43,
+   "anomalia": 0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1979,
+   "fecha": "1979-07",
+   "total": 27.07,
+   "anomalia": 0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1979,
+   "fecha": "1979-08",
+   "total": 26.91,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1979,
+   "fecha": "1979-09",
+   "total": 26.86,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1979,
+   "fecha": "1979-10",
+   "total": 26.96,
+   "anomalia": 0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1979,
+   "fecha": "1979-11",
+   "total": 26.97,
+   "anomalia": 0.5,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1979,
+   "fecha": "1979-12",
+   "total": 27.07,
+   "anomalia": 0.64,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1980,
+   "fecha": "1980-01",
+   "total": 27.09,
+   "anomalia": 0.62,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1980,
+   "fecha": "1980-02",
+   "total": 27.14,
+   "anomalia": 0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1980,
+   "fecha": "1980-03",
+   "total": 27.37,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1980,
+   "fecha": "1980-04",
+   "total": 27.67,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1980,
+   "fecha": "1980-05",
+   "total": 27.9,
+   "anomalia": 0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1980,
+   "fecha": "1980-06",
+   "total": 27.68,
+   "anomalia": 0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1980,
+   "fecha": "1980-07",
+   "total": 27.16,
+   "anomalia": 0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1980,
+   "fecha": "1980-08",
+   "total": 26.62,
+   "anomalia": -0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1980,
+   "fecha": "1980-09",
+   "total": 26.36,
+   "anomalia": -0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1980,
+   "fecha": "1980-10",
+   "total": 26.42,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1980,
+   "fecha": "1980-11",
+   "total": 26.55,
+   "anomalia": 0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1980,
+   "fecha": "1980-12",
+   "total": 26.44,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1981,
+   "fecha": "1981-01",
+   "total": 26.31,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1981,
+   "fecha": "1981-02",
+   "total": 26.4,
+   "anomalia": -0.42,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1981,
+   "fecha": "1981-03",
+   "total": 26.76,
+   "anomalia": -0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1981,
+   "fecha": "1981-04",
+   "total": 27.21,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1981,
+   "fecha": "1981-05",
+   "total": 27.3,
+   "anomalia": -0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1981,
+   "fecha": "1981-06",
+   "total": 27.12,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1981,
+   "fecha": "1981-07",
+   "total": 26.77,
+   "anomalia": -0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1981,
+   "fecha": "1981-08",
+   "total": 26.51,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1981,
+   "fecha": "1981-09",
+   "total": 26.49,
+   "anomalia": -0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1981,
+   "fecha": "1981-10",
+   "total": 26.38,
+   "anomalia": -0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1981,
+   "fecha": "1981-11",
+   "total": 26.34,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1981,
+   "fecha": "1981-12",
+   "total": 26.4,
+   "anomalia": -0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1982,
+   "fecha": "1982-01",
+   "total": 26.55,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1982,
+   "fecha": "1982-02",
+   "total": 26.83,
+   "anomalia": 0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1982,
+   "fecha": "1982-03",
+   "total": 27.23,
+   "anomalia": 0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1982,
+   "fecha": "1982-04",
+   "total": 27.82,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1982,
+   "fecha": "1982-05",
+   "total": 28.23,
+   "anomalia": 0.65,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1982,
+   "fecha": "1982-06",
+   "total": 28.12,
+   "anomalia": 0.73,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1982,
+   "fecha": "1982-07",
+   "total": 27.82,
+   "anomalia": 0.78,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1982,
+   "fecha": "1982-08",
+   "total": 27.72,
+   "anomalia": 0.99,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1982,
+   "fecha": "1982-09",
+   "total": 28.02,
+   "anomalia": 1.45,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1982,
+   "fecha": "1982-10",
+   "total": 28.36,
+   "anomalia": 1.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1982,
+   "fecha": "1982-11",
+   "total": 28.56,
+   "anomalia": 2.03,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1982,
+   "fecha": "1982-12",
+   "total": 28.66,
+   "anomalia": 2.12,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1983,
+   "fecha": "1983-01",
+   "total": 28.74,
+   "anomalia": 2.14,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1983,
+   "fecha": "1983-02",
+   "total": 28.73,
+   "anomalia": 1.91,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1983,
+   "fecha": "1983-03",
+   "total": 28.69,
+   "anomalia": 1.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1983,
+   "fecha": "1983-04",
+   "total": 28.7,
+   "anomalia": 1.23,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1983,
+   "fecha": "1983-05",
+   "total": 28.53,
+   "anomalia": 0.95,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1983,
+   "fecha": "1983-06",
+   "total": 28.01,
+   "anomalia": 0.62,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1983,
+   "fecha": "1983-07",
+   "total": 27.29,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1983,
+   "fecha": "1983-08",
+   "total": 26.67,
+   "anomalia": -0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1983,
+   "fecha": "1983-09",
+   "total": 26.14,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1983,
+   "fecha": "1983-10",
+   "total": 25.78,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1983,
+   "fecha": "1983-11",
+   "total": 25.56,
+   "anomalia": -0.96,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1983,
+   "fecha": "1983-12",
+   "total": 25.65,
+   "anomalia": -0.89,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1984,
+   "fecha": "1984-01",
+   "total": 25.97,
+   "anomalia": -0.63,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1984,
+   "fecha": "1984-02",
+   "total": 26.3,
+   "anomalia": -0.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1984,
+   "fecha": "1984-03",
+   "total": 26.78,
+   "anomalia": -0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1984,
+   "fecha": "1984-04",
+   "total": 27.0,
+   "anomalia": -0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1984,
+   "fecha": "1984-05",
+   "total": 27.04,
+   "anomalia": -0.55,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1984,
+   "fecha": "1984-06",
+   "total": 26.87,
+   "anomalia": -0.52,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1984,
+   "fecha": "1984-07",
+   "total": 26.65,
+   "anomalia": -0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1984,
+   "fecha": "1984-08",
+   "total": 26.51,
+   "anomalia": -0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1984,
+   "fecha": "1984-09",
+   "total": 26.25,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1984,
+   "fecha": "1984-10",
+   "total": 25.92,
+   "anomalia": -0.62,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1984,
+   "fecha": "1984-11",
+   "total": 25.57,
+   "anomalia": -0.95,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1984,
+   "fecha": "1984-12",
+   "total": 25.48,
+   "anomalia": -1.06,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1985,
+   "fecha": "1985-01",
+   "total": 25.59,
+   "anomalia": -1.01,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1985,
+   "fecha": "1985-02",
+   "total": 25.95,
+   "anomalia": -0.86,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1985,
+   "fecha": "1985-03",
+   "total": 26.31,
+   "anomalia": -0.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1985,
+   "fecha": "1985-04",
+   "total": 26.67,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1985,
+   "fecha": "1985-05",
+   "total": 26.8,
+   "anomalia": -0.79,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1985,
+   "fecha": "1985-06",
+   "total": 26.79,
+   "anomalia": -0.6,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1985,
+   "fecha": "1985-07",
+   "total": 26.6,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1985,
+   "fecha": "1985-08",
+   "total": 26.41,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1985,
+   "fecha": "1985-09",
+   "total": 26.26,
+   "anomalia": -0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1985,
+   "fecha": "1985-10",
+   "total": 26.24,
+   "anomalia": -0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1985,
+   "fecha": "1985-11",
+   "total": 26.25,
+   "anomalia": -0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1985,
+   "fecha": "1985-12",
+   "total": 26.15,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1986,
+   "fecha": "1986-01",
+   "total": 26.15,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1986,
+   "fecha": "1986-02",
+   "total": 26.38,
+   "anomalia": -0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1986,
+   "fecha": "1986-03",
+   "total": 26.89,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1986,
+   "fecha": "1986-04",
+   "total": 27.31,
+   "anomalia": -0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1986,
+   "fecha": "1986-05",
+   "total": 27.5,
+   "anomalia": -0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1986,
+   "fecha": "1986-06",
+   "total": 27.42,
+   "anomalia": 0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1986,
+   "fecha": "1986-07",
+   "total": 27.29,
+   "anomalia": 0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1986,
+   "fecha": "1986-08",
+   "total": 27.22,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1986,
+   "fecha": "1986-09",
+   "total": 27.24,
+   "anomalia": 0.64,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1986,
+   "fecha": "1986-10",
+   "total": 27.42,
+   "anomalia": 0.86,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1986,
+   "fecha": "1986-11",
+   "total": 27.57,
+   "anomalia": 1.06,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1986,
+   "fecha": "1986-12",
+   "total": 27.69,
+   "anomalia": 1.21,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1987,
+   "fecha": "1987-01",
+   "total": 27.72,
+   "anomalia": 1.18,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1987,
+   "fecha": "1987-02",
+   "total": 27.89,
+   "anomalia": 1.13,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1987,
+   "fecha": "1987-03",
+   "total": 28.16,
+   "anomalia": 1.02,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1987,
+   "fecha": "1987-04",
+   "total": 28.42,
+   "anomalia": 0.94,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1987,
+   "fecha": "1987-05",
+   "total": 28.53,
+   "anomalia": 0.95,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1987,
+   "fecha": "1987-06",
+   "total": 28.51,
+   "anomalia": 1.11,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1987,
+   "fecha": "1987-07",
+   "total": 28.35,
+   "anomalia": 1.3,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1987,
+   "fecha": "1987-08",
+   "total": 28.23,
+   "anomalia": 1.46,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1987,
+   "fecha": "1987-09",
+   "total": 28.1,
+   "anomalia": 1.49,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1987,
+   "fecha": "1987-10",
+   "total": 27.97,
+   "anomalia": 1.41,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1987,
+   "fecha": "1987-11",
+   "total": 27.72,
+   "anomalia": 1.2,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1987,
+   "fecha": "1987-12",
+   "total": 27.49,
+   "anomalia": 1.0,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1988,
+   "fecha": "1988-01",
+   "total": 27.17,
+   "anomalia": 0.63,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1988,
+   "fecha": "1988-02",
+   "total": 27.13,
+   "anomalia": 0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1988,
+   "fecha": "1988-03",
+   "total": 27.11,
+   "anomalia": -0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1988,
+   "fecha": "1988-04",
+   "total": 27.03,
+   "anomalia": -0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1988,
+   "fecha": "1988-05",
+   "total": 26.6,
+   "anomalia": -0.99,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1988,
+   "fecha": "1988-06",
+   "total": 26.09,
+   "anomalia": -1.3,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1988,
+   "fecha": "1988-07",
+   "total": 25.75,
+   "anomalia": -1.3,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1988,
+   "fecha": "1988-08",
+   "total": 25.63,
+   "anomalia": -1.14,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1988,
+   "fecha": "1988-09",
+   "total": 25.34,
+   "anomalia": -1.27,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1988,
+   "fecha": "1988-10",
+   "total": 25.01,
+   "anomalia": -1.54,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1988,
+   "fecha": "1988-11",
+   "total": 24.7,
+   "anomalia": -1.81,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1988,
+   "fecha": "1988-12",
+   "total": 24.64,
+   "anomalia": -1.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1989,
+   "fecha": "1989-01",
+   "total": 24.91,
+   "anomalia": -1.64,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1989,
+   "fecha": "1989-02",
+   "total": 25.39,
+   "anomalia": -1.38,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1989,
+   "fecha": "1989-03",
+   "total": 26.05,
+   "anomalia": -1.09,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1989,
+   "fecha": "1989-04",
+   "total": 26.63,
+   "anomalia": -0.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1989,
+   "fecha": "1989-05",
+   "total": 26.98,
+   "anomalia": -0.61,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1989,
+   "fecha": "1989-06",
+   "total": 27.0,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1989,
+   "fecha": "1989-07",
+   "total": 26.68,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1989,
+   "fecha": "1989-08",
+   "total": 26.41,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1989,
+   "fecha": "1989-09",
+   "total": 26.28,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1989,
+   "fecha": "1989-10",
+   "total": 26.31,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1989,
+   "fecha": "1989-11",
+   "total": 26.39,
+   "anomalia": -0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1989,
+   "fecha": "1989-12",
+   "total": 26.45,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1990,
+   "fecha": "1990-01",
+   "total": 26.73,
+   "anomalia": 0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1990,
+   "fecha": "1990-02",
+   "total": 26.95,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1990,
+   "fecha": "1990-03",
+   "total": 27.44,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1990,
+   "fecha": "1990-04",
+   "total": 27.75,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1990,
+   "fecha": "1990-05",
+   "total": 27.84,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1990,
+   "fecha": "1990-06",
+   "total": 27.65,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1990,
+   "fecha": "1990-07",
+   "total": 27.31,
+   "anomalia": 0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1990,
+   "fecha": "1990-08",
+   "total": 27.08,
+   "anomalia": 0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1990,
+   "fecha": "1990-09",
+   "total": 26.92,
+   "anomalia": 0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1990,
+   "fecha": "1990-10",
+   "total": 26.83,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1990,
+   "fecha": "1990-11",
+   "total": 26.82,
+   "anomalia": 0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1990,
+   "fecha": "1990-12",
+   "total": 26.88,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1991,
+   "fecha": "1991-01",
+   "total": 26.99,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1991,
+   "fecha": "1991-02",
+   "total": 27.16,
+   "anomalia": 0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1991,
+   "fecha": "1991-03",
+   "total": 27.5,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1991,
+   "fecha": "1991-04",
+   "total": 27.9,
+   "anomalia": 0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1991,
+   "fecha": "1991-05",
+   "total": 28.21,
+   "anomalia": 0.49,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1991,
+   "fecha": "1991-06",
+   "total": 28.18,
+   "anomalia": 0.63,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1991,
+   "fecha": "1991-07",
+   "total": 27.97,
+   "anomalia": 0.77,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1991,
+   "fecha": "1991-08",
+   "total": 27.6,
+   "anomalia": 0.67,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1991,
+   "fecha": "1991-09",
+   "total": 27.49,
+   "anomalia": 0.72,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1991,
+   "fecha": "1991-10",
+   "total": 27.57,
+   "anomalia": 0.83,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1991,
+   "fecha": "1991-11",
+   "total": 27.89,
+   "anomalia": 1.18,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1991,
+   "fecha": "1991-12",
+   "total": 28.09,
+   "anomalia": 1.43,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1992,
+   "fecha": "1992-01",
+   "total": 28.24,
+   "anomalia": 1.54,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1992,
+   "fecha": "1992-02",
+   "total": 28.4,
+   "anomalia": 1.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1992,
+   "fecha": "1992-03",
+   "total": 28.67,
+   "anomalia": 1.4,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1992,
+   "fecha": "1992-04",
+   "total": 28.91,
+   "anomalia": 1.3,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1992,
+   "fecha": "1992-05",
+   "total": 28.8,
+   "anomalia": 1.08,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1992,
+   "fecha": "1992-06",
+   "total": 28.27,
+   "anomalia": 0.72,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1992,
+   "fecha": "1992-07",
+   "total": 27.55,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1992,
+   "fecha": "1992-08",
+   "total": 27.0,
+   "anomalia": 0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1992,
+   "fecha": "1992-09",
+   "total": 26.63,
+   "anomalia": -0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1992,
+   "fecha": "1992-10",
+   "total": 26.52,
+   "anomalia": -0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1992,
+   "fecha": "1992-11",
+   "total": 26.47,
+   "anomalia": -0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1992,
+   "fecha": "1992-12",
+   "total": 26.62,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1993,
+   "fecha": "1993-01",
+   "total": 26.82,
+   "anomalia": 0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1993,
+   "fecha": "1993-02",
+   "total": 27.21,
+   "anomalia": 0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1993,
+   "fecha": "1993-03",
+   "total": 27.76,
+   "anomalia": 0.5,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1993,
+   "fecha": "1993-04",
+   "total": 28.34,
+   "anomalia": 0.73,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1993,
+   "fecha": "1993-05",
+   "total": 28.48,
+   "anomalia": 0.76,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1993,
+   "fecha": "1993-06",
+   "total": 28.11,
+   "anomalia": 0.56,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1993,
+   "fecha": "1993-07",
+   "total": 27.48,
+   "anomalia": 0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1993,
+   "fecha": "1993-08",
+   "total": 27.14,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1993,
+   "fecha": "1993-09",
+   "total": 26.98,
+   "anomalia": 0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1993,
+   "fecha": "1993-10",
+   "total": 26.95,
+   "anomalia": 0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1993,
+   "fecha": "1993-11",
+   "total": 26.9,
+   "anomalia": 0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1993,
+   "fecha": "1993-12",
+   "total": 26.85,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1994,
+   "fecha": "1994-01",
+   "total": 26.77,
+   "anomalia": 0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1994,
+   "fecha": "1994-02",
+   "total": 26.9,
+   "anomalia": 0.0,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1994,
+   "fecha": "1994-03",
+   "total": 27.31,
+   "anomalia": 0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1994,
+   "fecha": "1994-04",
+   "total": 27.78,
+   "anomalia": 0.17,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1994,
+   "fecha": "1994-05",
+   "total": 27.97,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1994,
+   "fecha": "1994-06",
+   "total": 27.78,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1994,
+   "fecha": "1994-07",
+   "total": 27.51,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1994,
+   "fecha": "1994-08",
+   "total": 27.22,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1994,
+   "fecha": "1994-09",
+   "total": 27.25,
+   "anomalia": 0.47,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1994,
+   "fecha": "1994-10",
+   "total": 27.4,
+   "anomalia": 0.66,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1994,
+   "fecha": "1994-11",
+   "total": 27.64,
+   "anomalia": 0.93,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1994,
+   "fecha": "1994-12",
+   "total": 27.64,
+   "anomalia": 0.97,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1995,
+   "fecha": "1995-01",
+   "total": 27.58,
+   "anomalia": 0.88,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1995,
+   "fecha": "1995-02",
+   "total": 27.56,
+   "anomalia": 0.65,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1995,
+   "fecha": "1995-03",
+   "total": 27.73,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1995,
+   "fecha": "1995-04",
+   "total": 27.8,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1995,
+   "fecha": "1995-05",
+   "total": 27.75,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1995,
+   "fecha": "1995-06",
+   "total": 27.43,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1995,
+   "fecha": "1995-07",
+   "total": 26.91,
+   "anomalia": -0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1995,
+   "fecha": "1995-08",
+   "total": 26.38,
+   "anomalia": -0.55,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1995,
+   "fecha": "1995-09",
+   "total": 25.97,
+   "anomalia": -0.81,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1995,
+   "fecha": "1995-10",
+   "total": 25.78,
+   "anomalia": -0.97,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1995,
+   "fecha": "1995-11",
+   "total": 25.66,
+   "anomalia": -1.05,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1995,
+   "fecha": "1995-12",
+   "total": 25.64,
+   "anomalia": -1.01,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1996,
+   "fecha": "1996-01",
+   "total": 25.78,
+   "anomalia": -0.88,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1996,
+   "fecha": "1996-02",
+   "total": 26.15,
+   "anomalia": -0.7,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1996,
+   "fecha": "1996-03",
+   "total": 26.72,
+   "anomalia": -0.52,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1996,
+   "fecha": "1996-04",
+   "total": 27.25,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1996,
+   "fecha": "1996-05",
+   "total": 27.48,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1996,
+   "fecha": "1996-06",
+   "total": 27.3,
+   "anomalia": -0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1996,
+   "fecha": "1996-07",
+   "total": 26.99,
+   "anomalia": -0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1996,
+   "fecha": "1996-08",
+   "total": 26.65,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1996,
+   "fecha": "1996-09",
+   "total": 26.45,
+   "anomalia": -0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1996,
+   "fecha": "1996-10",
+   "total": 26.35,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1996,
+   "fecha": "1996-11",
+   "total": 26.24,
+   "anomalia": -0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1996,
+   "fecha": "1996-12",
+   "total": 26.18,
+   "anomalia": -0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1997,
+   "fecha": "1997-01",
+   "total": 26.23,
+   "anomalia": -0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1997,
+   "fecha": "1997-02",
+   "total": 26.59,
+   "anomalia": -0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1997,
+   "fecha": "1997-03",
+   "total": 27.21,
+   "anomalia": -0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1997,
+   "fecha": "1997-04",
+   "total": 27.9,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1997,
+   "fecha": "1997-05",
+   "total": 28.44,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1997,
+   "fecha": "1997-06",
+   "total": 28.67,
+   "anomalia": 1.13,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1997,
+   "fecha": "1997-07",
+   "total": 28.69,
+   "anomalia": 1.48,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1997,
+   "fecha": "1997-08",
+   "total": 28.7,
+   "anomalia": 1.79,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1997,
+   "fecha": "1997-09",
+   "total": 28.78,
+   "anomalia": 2.04,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1997,
+   "fecha": "1997-10",
+   "total": 28.92,
+   "anomalia": 2.24,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1997,
+   "fecha": "1997-11",
+   "total": 28.97,
+   "anomalia": 2.34,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1997,
+   "fecha": "1997-12",
+   "total": 28.96,
+   "anomalia": 2.37,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1998,
+   "fecha": "1998-01",
+   "total": 28.85,
+   "anomalia": 2.22,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1998,
+   "fecha": "1998-02",
+   "total": 28.76,
+   "anomalia": 1.91,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1998,
+   "fecha": "1998-03",
+   "total": 28.64,
+   "anomalia": 1.4,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1998,
+   "fecha": "1998-04",
+   "total": 28.63,
+   "anomalia": 1.03,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1998,
+   "fecha": "1998-05",
+   "total": 28.13,
+   "anomalia": 0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1998,
+   "fecha": "1998-06",
+   "total": 27.46,
+   "anomalia": -0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1998,
+   "fecha": "1998-07",
+   "total": 26.57,
+   "anomalia": -0.63,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1998,
+   "fecha": "1998-08",
+   "total": 26.08,
+   "anomalia": -0.83,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1998,
+   "fecha": "1998-09",
+   "total": 25.73,
+   "anomalia": -1.02,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1998,
+   "fecha": "1998-10",
+   "total": 25.56,
+   "anomalia": -1.12,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1998,
+   "fecha": "1998-11",
+   "total": 25.32,
+   "anomalia": -1.31,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1998,
+   "fecha": "1998-12",
+   "total": 25.12,
+   "anomalia": -1.47,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 1999,
+   "fecha": "1999-01",
+   "total": 25.12,
+   "anomalia": -1.51,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 1999,
+   "fecha": "1999-02",
+   "total": 25.6,
+   "anomalia": -1.25,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 1999,
+   "fecha": "1999-03",
+   "total": 26.31,
+   "anomalia": -0.93,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 1999,
+   "fecha": "1999-04",
+   "total": 26.8,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 1999,
+   "fecha": "1999-05",
+   "total": 26.94,
+   "anomalia": -0.79,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 1999,
+   "fecha": "1999-06",
+   "total": 26.7,
+   "anomalia": -0.84,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 1999,
+   "fecha": "1999-07",
+   "total": 26.3,
+   "anomalia": -0.9,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 1999,
+   "fecha": "1999-08",
+   "total": 25.97,
+   "anomalia": -0.94,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 1999,
+   "fecha": "1999-09",
+   "total": 25.75,
+   "anomalia": -1.0,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 1999,
+   "fecha": "1999-10",
+   "total": 25.55,
+   "anomalia": -1.13,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 1999,
+   "fecha": "1999-11",
+   "total": 25.27,
+   "anomalia": -1.35,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 1999,
+   "fecha": "1999-12",
+   "total": 25.06,
+   "anomalia": -1.53,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2000,
+   "fecha": "2000-01",
+   "total": 25.17,
+   "anomalia": -1.47,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2000,
+   "fecha": "2000-02",
+   "total": 25.59,
+   "anomalia": -1.26,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2000,
+   "fecha": "2000-03",
+   "total": 26.26,
+   "anomalia": -0.98,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2000,
+   "fecha": "2000-04",
+   "total": 26.79,
+   "anomalia": -0.81,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2000,
+   "fecha": "2000-05",
+   "total": 27.06,
+   "anomalia": -0.67,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2000,
+   "fecha": "2000-06",
+   "total": 26.92,
+   "anomalia": -0.62,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2000,
+   "fecha": "2000-07",
+   "total": 26.73,
+   "anomalia": -0.48,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2000,
+   "fecha": "2000-08",
+   "total": 26.52,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2000,
+   "fecha": "2000-09",
+   "total": 26.33,
+   "anomalia": -0.42,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2000,
+   "fecha": "2000-10",
+   "total": 26.14,
+   "anomalia": -0.54,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2000,
+   "fecha": "2000-11",
+   "total": 25.87,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2000,
+   "fecha": "2000-12",
+   "total": 25.78,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2001,
+   "fecha": "2001-01",
+   "total": 25.82,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2001,
+   "fecha": "2001-02",
+   "total": 26.25,
+   "anomalia": -0.54,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2001,
+   "fecha": "2001-03",
+   "total": 26.79,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2001,
+   "fecha": "2001-04",
+   "total": 27.34,
+   "anomalia": -0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2001,
+   "fecha": "2001-05",
+   "total": 27.59,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2001,
+   "fecha": "2001-06",
+   "total": 27.53,
+   "anomalia": -0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2001,
+   "fecha": "2001-07",
+   "total": 27.24,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2001,
+   "fecha": "2001-08",
+   "total": 26.86,
+   "anomalia": -0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2001,
+   "fecha": "2001-09",
+   "total": 26.67,
+   "anomalia": -0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2001,
+   "fecha": "2001-10",
+   "total": 26.52,
+   "anomalia": -0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2001,
+   "fecha": "2001-11",
+   "total": 26.4,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2001,
+   "fecha": "2001-12",
+   "total": 26.32,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2002,
+   "fecha": "2002-01",
+   "total": 26.46,
+   "anomalia": -0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2002,
+   "fecha": "2002-02",
+   "total": 26.86,
+   "anomalia": 0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2002,
+   "fecha": "2002-03",
+   "total": 27.34,
+   "anomalia": 0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2002,
+   "fecha": "2002-04",
+   "total": 27.78,
+   "anomalia": 0.15,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2002,
+   "fecha": "2002-05",
+   "total": 28.08,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2002,
+   "fecha": "2002-06",
+   "total": 28.05,
+   "anomalia": 0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2002,
+   "fecha": "2002-07",
+   "total": 27.85,
+   "anomalia": 0.57,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2002,
+   "fecha": "2002-08",
+   "total": 27.62,
+   "anomalia": 0.63,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2002,
+   "fecha": "2002-09",
+   "total": 27.6,
+   "anomalia": 0.78,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2002,
+   "fecha": "2002-10",
+   "total": 27.77,
+   "anomalia": 0.99,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2002,
+   "fecha": "2002-11",
+   "total": 27.92,
+   "anomalia": 1.19,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2002,
+   "fecha": "2002-12",
+   "total": 27.72,
+   "anomalia": 1.08,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2003,
+   "fecha": "2003-01",
+   "total": 27.51,
+   "anomalia": 0.9,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2003,
+   "fecha": "2003-02",
+   "total": 27.39,
+   "anomalia": 0.59,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2003,
+   "fecha": "2003-03",
+   "total": 27.61,
+   "anomalia": 0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2003,
+   "fecha": "2003-04",
+   "total": 27.62,
+   "anomalia": -0.01,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2003,
+   "fecha": "2003-05",
+   "total": 27.6,
+   "anomalia": -0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2003,
+   "fecha": "2003-06",
+   "total": 27.47,
+   "anomalia": -0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2003,
+   "fecha": "2003-07",
+   "total": 27.38,
+   "anomalia": 0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2003,
+   "fecha": "2003-08",
+   "total": 27.13,
+   "anomalia": 0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2003,
+   "fecha": "2003-09",
+   "total": 27.05,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2003,
+   "fecha": "2003-10",
+   "total": 27.0,
+   "anomalia": 0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2003,
+   "fecha": "2003-11",
+   "total": 27.02,
+   "anomalia": 0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2003,
+   "fecha": "2003-12",
+   "total": 26.93,
+   "anomalia": 0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2004,
+   "fecha": "2004-01",
+   "total": 26.95,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2004,
+   "fecha": "2004-02",
+   "total": 27.06,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2004,
+   "fecha": "2004-03",
+   "total": 27.41,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2004,
+   "fecha": "2004-04",
+   "total": 27.72,
+   "anomalia": 0.1,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2004,
+   "fecha": "2004-05",
+   "total": 27.9,
+   "anomalia": 0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2004,
+   "fecha": "2004-06",
+   "total": 27.83,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2004,
+   "fecha": "2004-07",
+   "total": 27.67,
+   "anomalia": 0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2004,
+   "fecha": "2004-08",
+   "total": 27.53,
+   "anomalia": 0.54,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2004,
+   "fecha": "2004-09",
+   "total": 27.4,
+   "anomalia": 0.58,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2004,
+   "fecha": "2004-10",
+   "total": 27.38,
+   "anomalia": 0.61,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2004,
+   "fecha": "2004-11",
+   "total": 27.37,
+   "anomalia": 0.64,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2004,
+   "fecha": "2004-12",
+   "total": 27.34,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2005,
+   "fecha": "2005-01",
+   "total": 27.23,
+   "anomalia": 0.62,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2005,
+   "fecha": "2005-02",
+   "total": 27.35,
+   "anomalia": 0.55,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2005,
+   "fecha": "2005-03",
+   "total": 27.62,
+   "anomalia": 0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2005,
+   "fecha": "2005-04",
+   "total": 27.99,
+   "anomalia": 0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2005,
+   "fecha": "2005-05",
+   "total": 28.05,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2005,
+   "fecha": "2005-06",
+   "total": 27.7,
+   "anomalia": 0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2005,
+   "fecha": "2005-07",
+   "total": 27.24,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2005,
+   "fecha": "2005-08",
+   "total": 26.85,
+   "anomalia": -0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2005,
+   "fecha": "2005-09",
+   "total": 26.71,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2005,
+   "fecha": "2005-10",
+   "total": 26.5,
+   "anomalia": -0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2005,
+   "fecha": "2005-11",
+   "total": 26.16,
+   "anomalia": -0.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2005,
+   "fecha": "2005-12",
+   "total": 25.86,
+   "anomalia": -0.82,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2006,
+   "fecha": "2006-01",
+   "total": 25.83,
+   "anomalia": -0.86,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2006,
+   "fecha": "2006-02",
+   "total": 26.11,
+   "anomalia": -0.8,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2006,
+   "fecha": "2006-03",
+   "total": 26.71,
+   "anomalia": -0.63,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2006,
+   "fecha": "2006-04",
+   "total": 27.28,
+   "anomalia": -0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2006,
+   "fecha": "2006-05",
+   "total": 27.69,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2006,
+   "fecha": "2006-06",
+   "total": 27.63,
+   "anomalia": -0.05,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2006,
+   "fecha": "2006-07",
+   "total": 27.45,
+   "anomalia": 0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2006,
+   "fecha": "2006-08",
+   "total": 27.32,
+   "anomalia": 0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2006,
+   "fecha": "2006-09",
+   "total": 27.34,
+   "anomalia": 0.54,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2006,
+   "fecha": "2006-10",
+   "total": 27.47,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2006,
+   "fecha": "2006-11",
+   "total": 27.6,
+   "anomalia": 0.88,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2006,
+   "fecha": "2006-12",
+   "total": 27.55,
+   "anomalia": 0.88,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2007,
+   "fecha": "2007-01",
+   "total": 27.3,
+   "anomalia": 0.62,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2007,
+   "fecha": "2007-02",
+   "total": 27.1,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2007,
+   "fecha": "2007-03",
+   "total": 27.22,
+   "anomalia": -0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2007,
+   "fecha": "2007-04",
+   "total": 27.41,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2007,
+   "fecha": "2007-05",
+   "total": 27.54,
+   "anomalia": -0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2007,
+   "fecha": "2007-06",
+   "total": 27.27,
+   "anomalia": -0.41,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2007,
+   "fecha": "2007-07",
+   "total": 26.84,
+   "anomalia": -0.49,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2007,
+   "fecha": "2007-08",
+   "total": 26.22,
+   "anomalia": -0.77,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2007,
+   "fecha": "2007-09",
+   "total": 25.75,
+   "anomalia": -1.05,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2007,
+   "fecha": "2007-10",
+   "total": 25.38,
+   "anomalia": -1.38,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2007,
+   "fecha": "2007-11",
+   "total": 25.15,
+   "anomalia": -1.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2007,
+   "fecha": "2007-12",
+   "total": 24.95,
+   "anomalia": -1.72,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2008,
+   "fecha": "2008-01",
+   "total": 24.92,
+   "anomalia": -1.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2008,
+   "fecha": "2008-02",
+   "total": 25.29,
+   "anomalia": -1.61,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2008,
+   "fecha": "2008-03",
+   "total": 25.97,
+   "anomalia": -1.37,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2008,
+   "fecha": "2008-04",
+   "total": 26.69,
+   "anomalia": -1.05,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2008,
+   "fecha": "2008-05",
+   "total": 27.03,
+   "anomalia": -0.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2008,
+   "fecha": "2008-06",
+   "total": 27.13,
+   "anomalia": -0.56,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2008,
+   "fecha": "2008-07",
+   "total": 26.99,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2008,
+   "fecha": "2008-08",
+   "total": 26.78,
+   "anomalia": -0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2008,
+   "fecha": "2008-09",
+   "total": 26.55,
+   "anomalia": -0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2008,
+   "fecha": "2008-10",
+   "total": 26.4,
+   "anomalia": -0.36,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2008,
+   "fecha": "2008-11",
+   "total": 26.15,
+   "anomalia": -0.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2008,
+   "fecha": "2008-12",
+   "total": 25.87,
+   "anomalia": -0.79,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2009,
+   "fecha": "2009-01",
+   "total": 25.79,
+   "anomalia": -0.89,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2009,
+   "fecha": "2009-02",
+   "total": 26.07,
+   "anomalia": -0.84,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2009,
+   "fecha": "2009-03",
+   "total": 26.71,
+   "anomalia": -0.63,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2009,
+   "fecha": "2009-04",
+   "total": 27.38,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2009,
+   "fecha": "2009-05",
+   "total": 27.91,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2009,
+   "fecha": "2009-06",
+   "total": 28.03,
+   "anomalia": 0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2009,
+   "fecha": "2009-07",
+   "total": 27.82,
+   "anomalia": 0.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2009,
+   "fecha": "2009-08",
+   "total": 27.55,
+   "anomalia": 0.56,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2009,
+   "fecha": "2009-09",
+   "total": 27.46,
+   "anomalia": 0.66,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2009,
+   "fecha": "2009-10",
+   "total": 27.68,
+   "anomalia": 0.92,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2009,
+   "fecha": "2009-11",
+   "total": 28.02,
+   "anomalia": 1.31,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2009,
+   "fecha": "2009-12",
+   "total": 28.16,
+   "anomalia": 1.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2010,
+   "fecha": "2010-01",
+   "total": 28.15,
+   "anomalia": 1.47,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2010,
+   "fecha": "2010-02",
+   "total": 28.11,
+   "anomalia": 1.21,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2010,
+   "fecha": "2010-03",
+   "total": 28.22,
+   "anomalia": 0.88,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2010,
+   "fecha": "2010-04",
+   "total": 28.11,
+   "anomalia": 0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2010,
+   "fecha": "2010-05",
+   "total": 27.72,
+   "anomalia": -0.16,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2010,
+   "fecha": "2010-06",
+   "total": 27.03,
+   "anomalia": -0.66,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2010,
+   "fecha": "2010-07",
+   "total": 26.34,
+   "anomalia": -0.98,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2010,
+   "fecha": "2010-08",
+   "total": 25.74,
+   "anomalia": -1.24,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2010,
+   "fecha": "2010-09",
+   "total": 25.37,
+   "anomalia": -1.43,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2010,
+   "fecha": "2010-10",
+   "total": 25.21,
+   "anomalia": -1.54,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2010,
+   "fecha": "2010-11",
+   "total": 25.14,
+   "anomalia": -1.57,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2010,
+   "fecha": "2010-12",
+   "total": 25.14,
+   "anomalia": -1.48,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2011,
+   "fecha": "2011-01",
+   "total": 25.28,
+   "anomalia": -1.29,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2011,
+   "fecha": "2011-02",
+   "total": 25.72,
+   "anomalia": -1.06,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2011,
+   "fecha": "2011-03",
+   "total": 26.37,
+   "anomalia": -0.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2011,
+   "fecha": "2011-04",
+   "total": 26.95,
+   "anomalia": -0.68,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2011,
+   "fecha": "2011-05",
+   "total": 27.29,
+   "anomalia": -0.5,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2011,
+   "fecha": "2011-06",
+   "total": 27.29,
+   "anomalia": -0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2011,
+   "fecha": "2011-07",
+   "total": 26.92,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2011,
+   "fecha": "2011-08",
+   "total": 26.45,
+   "anomalia": -0.5,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2011,
+   "fecha": "2011-09",
+   "total": 26.0,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2011,
+   "fecha": "2011-10",
+   "total": 25.77,
+   "anomalia": -0.94,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2011,
+   "fecha": "2011-11",
+   "total": 25.63,
+   "anomalia": -1.02,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2011,
+   "fecha": "2011-12",
+   "total": 25.64,
+   "anomalia": -0.92,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2012,
+   "fecha": "2012-01",
+   "total": 25.84,
+   "anomalia": -0.71,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2012,
+   "fecha": "2012-02",
+   "total": 26.22,
+   "anomalia": -0.56,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2012,
+   "fecha": "2012-03",
+   "total": 26.79,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2012,
+   "fecha": "2012-04",
+   "total": 27.29,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2012,
+   "fecha": "2012-05",
+   "total": 27.62,
+   "anomalia": -0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2012,
+   "fecha": "2012-06",
+   "total": 27.66,
+   "anomalia": 0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2012,
+   "fecha": "2012-07",
+   "total": 27.57,
+   "anomalia": 0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2012,
+   "fecha": "2012-08",
+   "total": 27.35,
+   "anomalia": 0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2012,
+   "fecha": "2012-09",
+   "total": 27.13,
+   "anomalia": 0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2012,
+   "fecha": "2012-10",
+   "total": 26.99,
+   "anomalia": 0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2012,
+   "fecha": "2012-11",
+   "total": 26.78,
+   "anomalia": 0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2012,
+   "fecha": "2012-12",
+   "total": 26.53,
+   "anomalia": -0.03,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2013,
+   "fecha": "2013-01",
+   "total": 26.3,
+   "anomalia": -0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2013,
+   "fecha": "2013-02",
+   "total": 26.5,
+   "anomalia": -0.28,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2013,
+   "fecha": "2013-03",
+   "total": 27.0,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2013,
+   "fecha": "2013-04",
+   "total": 27.43,
+   "anomalia": -0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2013,
+   "fecha": "2013-05",
+   "total": 27.49,
+   "anomalia": -0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2013,
+   "fecha": "2013-06",
+   "total": 27.24,
+   "anomalia": -0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2013,
+   "fecha": "2013-07",
+   "total": 26.84,
+   "anomalia": -0.45,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2013,
+   "fecha": "2013-08",
+   "total": 26.61,
+   "anomalia": -0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2013,
+   "fecha": "2013-09",
+   "total": 26.45,
+   "anomalia": -0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2013,
+   "fecha": "2013-10",
+   "total": 26.57,
+   "anomalia": -0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2013,
+   "fecha": "2013-11",
+   "total": 26.53,
+   "anomalia": -0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2013,
+   "fecha": "2013-12",
+   "total": 26.45,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2014,
+   "fecha": "2014-01",
+   "total": 26.31,
+   "anomalia": -0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2014,
+   "fecha": "2014-02",
+   "total": 26.57,
+   "anomalia": -0.21,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2014,
+   "fecha": "2014-03",
+   "total": 27.21,
+   "anomalia": -0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2014,
+   "fecha": "2014-04",
+   "total": 27.88,
+   "anomalia": 0.25,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2014,
+   "fecha": "2014-05",
+   "total": 28.14,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2014,
+   "fecha": "2014-06",
+   "total": 27.84,
+   "anomalia": 0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2014,
+   "fecha": "2014-07",
+   "total": 27.36,
+   "anomalia": 0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2014,
+   "fecha": "2014-08",
+   "total": 27.03,
+   "anomalia": 0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2014,
+   "fecha": "2014-09",
+   "total": 27.0,
+   "anomalia": 0.24,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2014,
+   "fecha": "2014-10",
+   "total": 27.22,
+   "anomalia": 0.51,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2014,
+   "fecha": "2014-11",
+   "total": 27.35,
+   "anomalia": 0.7,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2014,
+   "fecha": "2014-12",
+   "total": 27.36,
+   "anomalia": 0.8,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2015,
+   "fecha": "2015-01",
+   "total": 27.28,
+   "anomalia": 0.73,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2015,
+   "fecha": "2015-02",
+   "total": 27.43,
+   "anomalia": 0.65,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2015,
+   "fecha": "2015-03",
+   "total": 27.95,
+   "anomalia": 0.72,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2015,
+   "fecha": "2015-04",
+   "total": 28.49,
+   "anomalia": 0.86,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2015,
+   "fecha": "2015-05",
+   "total": 28.83,
+   "anomalia": 1.04,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2015,
+   "fecha": "2015-06",
+   "total": 28.82,
+   "anomalia": 1.19,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2015,
+   "fecha": "2015-07",
+   "total": 28.73,
+   "anomalia": 1.44,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2015,
+   "fecha": "2015-08",
+   "total": 28.69,
+   "anomalia": 1.73,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2015,
+   "fecha": "2015-09",
+   "total": 28.79,
+   "anomalia": 2.02,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2015,
+   "fecha": "2015-10",
+   "total": 28.99,
+   "anomalia": 2.28,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2015,
+   "fecha": "2015-11",
+   "total": 29.1,
+   "anomalia": 2.45,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2015,
+   "fecha": "2015-12",
+   "total": 29.15,
+   "anomalia": 2.59,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2016,
+   "fecha": "2016-01",
+   "total": 29.05,
+   "anomalia": 2.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2016,
+   "fecha": "2016-02",
+   "total": 28.99,
+   "anomalia": 2.21,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2016,
+   "fecha": "2016-03",
+   "total": 28.92,
+   "anomalia": 1.69,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2016,
+   "fecha": "2016-04",
+   "total": 28.74,
+   "anomalia": 1.11,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2016,
+   "fecha": "2016-05",
+   "total": 28.37,
+   "anomalia": 0.57,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2016,
+   "fecha": "2016-06",
+   "total": 27.72,
+   "anomalia": 0.09,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2016,
+   "fecha": "2016-07",
+   "total": 27.1,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2016,
+   "fecha": "2016-08",
+   "total": 26.62,
+   "anomalia": -0.34,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2016,
+   "fecha": "2016-09",
+   "total": 26.34,
+   "anomalia": -0.42,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2016,
+   "fecha": "2016-10",
+   "total": 26.2,
+   "anomalia": -0.51,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2016,
+   "fecha": "2016-11",
+   "total": 26.16,
+   "anomalia": -0.49,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2016,
+   "fecha": "2016-12",
+   "total": 26.19,
+   "anomalia": -0.37,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2017,
+   "fecha": "2017-01",
+   "total": 26.47,
+   "anomalia": -0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2017,
+   "fecha": "2017-02",
+   "total": 26.86,
+   "anomalia": 0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2017,
+   "fecha": "2017-03",
+   "total": 27.5,
+   "anomalia": 0.27,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2017,
+   "fecha": "2017-04",
+   "total": 27.95,
+   "anomalia": 0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2017,
+   "fecha": "2017-05",
+   "total": 28.15,
+   "anomalia": 0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2017,
+   "fecha": "2017-06",
+   "total": 27.94,
+   "anomalia": 0.32,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2017,
+   "fecha": "2017-07",
+   "total": 27.43,
+   "anomalia": 0.14,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2017,
+   "fecha": "2017-08",
+   "total": 26.89,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2017,
+   "fecha": "2017-09",
+   "total": 26.54,
+   "anomalia": -0.23,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2017,
+   "fecha": "2017-10",
+   "total": 26.27,
+   "anomalia": -0.44,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2017,
+   "fecha": "2017-11",
+   "total": 26.04,
+   "anomalia": -0.61,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2017,
+   "fecha": "2017-12",
+   "total": 25.8,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2018,
+   "fecha": "2018-01",
+   "total": 25.83,
+   "anomalia": -0.71,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2018,
+   "fecha": "2018-02",
+   "total": 26.11,
+   "anomalia": -0.67,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2018,
+   "fecha": "2018-03",
+   "total": 26.68,
+   "anomalia": -0.55,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2018,
+   "fecha": "2018-04",
+   "total": 27.28,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2018,
+   "fecha": "2018-05",
+   "total": 27.72,
+   "anomalia": -0.07,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2018,
+   "fecha": "2018-06",
+   "total": 27.76,
+   "anomalia": 0.13,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2018,
+   "fecha": "2018-07",
+   "total": 27.49,
+   "anomalia": 0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2018,
+   "fecha": "2018-08",
+   "total": 27.25,
+   "anomalia": 0.3,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2018,
+   "fecha": "2018-09",
+   "total": 27.28,
+   "anomalia": 0.52,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2018,
+   "fecha": "2018-10",
+   "total": 27.53,
+   "anomalia": 0.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2018,
+   "fecha": "2018-11",
+   "total": 27.69,
+   "anomalia": 1.04,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2018,
+   "fecha": "2018-12",
+   "total": 27.61,
+   "anomalia": 1.05,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2019,
+   "fecha": "2019-01",
+   "total": 27.54,
+   "anomalia": 0.99,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2019,
+   "fecha": "2019-02",
+   "total": 27.72,
+   "anomalia": 0.94,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2019,
+   "fecha": "2019-03",
+   "total": 28.1,
+   "anomalia": 0.87,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2019,
+   "fecha": "2019-04",
+   "total": 28.45,
+   "anomalia": 0.82,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2019,
+   "fecha": "2019-05",
+   "total": 28.5,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2019,
+   "fecha": "2019-06",
+   "total": 28.21,
+   "anomalia": 0.59,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2019,
+   "fecha": "2019-07",
+   "total": 27.67,
+   "anomalia": 0.38,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2019,
+   "fecha": "2019-08",
+   "total": 27.16,
+   "anomalia": 0.2,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2019,
+   "fecha": "2019-09",
+   "total": 27.07,
+   "anomalia": 0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2019,
+   "fecha": "2019-10",
+   "total": 27.22,
+   "anomalia": 0.51,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2019,
+   "fecha": "2019-11",
+   "total": 27.37,
+   "anomalia": 0.72,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2019,
+   "fecha": "2019-12",
+   "total": 27.31,
+   "anomalia": 0.75,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2020,
+   "fecha": "2020-01",
+   "total": 27.25,
+   "anomalia": 0.71,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2020,
+   "fecha": "2020-02",
+   "total": 27.44,
+   "anomalia": 0.66,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2020,
+   "fecha": "2020-03",
+   "total": 27.8,
+   "anomalia": 0.57,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2020,
+   "fecha": "2020-04",
+   "total": 27.97,
+   "anomalia": 0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2020,
+   "fecha": "2020-05",
+   "total": 27.83,
+   "anomalia": 0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2020,
+   "fecha": "2020-06",
+   "total": 27.45,
+   "anomalia": -0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2020,
+   "fecha": "2020-07",
+   "total": 27.0,
+   "anomalia": -0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2020,
+   "fecha": "2020-08",
+   "total": 26.52,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2020,
+   "fecha": "2020-09",
+   "total": 25.99,
+   "anomalia": -0.77,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2020,
+   "fecha": "2020-10",
+   "total": 25.71,
+   "anomalia": -1.0,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2020,
+   "fecha": "2020-11",
+   "total": 25.54,
+   "anomalia": -1.11,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2020,
+   "fecha": "2020-12",
+   "total": 25.5,
+   "anomalia": -1.06,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2021,
+   "fecha": "2021-01",
+   "total": 25.55,
+   "anomalia": -0.99,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2021,
+   "fecha": "2021-02",
+   "total": 25.92,
+   "anomalia": -0.85,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2021,
+   "fecha": "2021-03",
+   "total": 26.48,
+   "anomalia": -0.74,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2021,
+   "fecha": "2021-04",
+   "total": 27.07,
+   "anomalia": -0.56,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2021,
+   "fecha": "2021-05",
+   "total": 27.39,
+   "anomalia": -0.4,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2021,
+   "fecha": "2021-06",
+   "total": 27.31,
+   "anomalia": -0.31,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2021,
+   "fecha": "2021-07",
+   "total": 26.95,
+   "anomalia": -0.35,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2021,
+   "fecha": "2021-08",
+   "total": 26.49,
+   "anomalia": -0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2021,
+   "fecha": "2021-09",
+   "total": 26.13,
+   "anomalia": -0.64,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2021,
+   "fecha": "2021-10",
+   "total": 25.94,
+   "anomalia": -0.77,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2021,
+   "fecha": "2021-11",
+   "total": 25.74,
+   "anomalia": -0.91,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2021,
+   "fecha": "2021-12",
+   "total": 25.73,
+   "anomalia": -0.83,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2022,
+   "fecha": "2022-01",
+   "total": 25.79,
+   "anomalia": -0.76,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2022,
+   "fecha": "2022-02",
+   "total": 26.09,
+   "anomalia": -0.68,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2022,
+   "fecha": "2022-03",
+   "total": 26.46,
+   "anomalia": -0.77,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2022,
+   "fecha": "2022-04",
+   "total": 26.77,
+   "anomalia": -0.86,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2022,
+   "fecha": "2022-05",
+   "total": 26.96,
+   "anomalia": -0.83,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2022,
+   "fecha": "2022-06",
+   "total": 26.9,
+   "anomalia": -0.73,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2022,
+   "fecha": "2022-07",
+   "total": 26.59,
+   "anomalia": -0.7,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2022,
+   "fecha": "2022-08",
+   "total": 26.18,
+   "anomalia": -0.78,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2022,
+   "fecha": "2022-09",
+   "total": 25.89,
+   "anomalia": -0.87,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2022,
+   "fecha": "2022-10",
+   "total": 25.82,
+   "anomalia": -0.89,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2022,
+   "fecha": "2022-11",
+   "total": 25.83,
+   "anomalia": -0.82,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2022,
+   "fecha": "2022-12",
+   "total": 25.86,
+   "anomalia": -0.7,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2023,
+   "fecha": "2023-01",
+   "total": 26.0,
+   "anomalia": -0.55,
+   "fase": "La Niña"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2023,
+   "fecha": "2023-02",
+   "total": 26.45,
+   "anomalia": -0.33,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2023,
+   "fecha": "2023-03",
+   "total": 27.12,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2023,
+   "fecha": "2023-04",
+   "total": 27.82,
+   "anomalia": 0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2023,
+   "fecha": "2023-05",
+   "total": 28.25,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2023,
+   "fecha": "2023-06",
+   "total": 28.36,
+   "anomalia": 0.73,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2023,
+   "fecha": "2023-07",
+   "total": 28.29,
+   "anomalia": 1.0,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2023,
+   "fecha": "2023-08",
+   "total": 28.21,
+   "anomalia": 1.25,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2023,
+   "fecha": "2023-09",
+   "total": 28.26,
+   "anomalia": 1.5,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2023,
+   "fecha": "2023-10",
+   "total": 28.45,
+   "anomalia": 1.74,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2023,
+   "fecha": "2023-11",
+   "total": 28.55,
+   "anomalia": 1.9,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2023,
+   "fecha": "2023-12",
+   "total": 28.55,
+   "anomalia": 1.99,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2024,
+   "fecha": "2024-01",
+   "total": 28.38,
+   "anomalia": 1.84,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2024,
+   "fecha": "2024-02",
+   "total": 28.3,
+   "anomalia": 1.53,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2024,
+   "fecha": "2024-03",
+   "total": 28.4,
+   "anomalia": 1.18,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2024,
+   "fecha": "2024-04",
+   "total": 28.4,
+   "anomalia": 0.77,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2024,
+   "fecha": "2024-05",
+   "total": 28.23,
+   "anomalia": 0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2024,
+   "fecha": "2024-06",
+   "total": 27.8,
+   "anomalia": 0.18,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2024,
+   "fecha": "2024-07",
+   "total": 27.35,
+   "anomalia": 0.06,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2024,
+   "fecha": "2024-08",
+   "total": 26.92,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2024,
+   "fecha": "2024-09",
+   "total": 26.64,
+   "anomalia": -0.12,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2024,
+   "fecha": "2024-10",
+   "total": 26.52,
+   "anomalia": -0.19,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2024,
+   "fecha": "2024-11",
+   "total": 26.35,
+   "anomalia": -0.29,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2024,
+   "fecha": "2024-12",
+   "total": 26.13,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2025,
+   "fecha": "2025-01",
+   "total": 26.09,
+   "anomalia": -0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2025,
+   "fecha": "2025-02",
+   "total": 26.56,
+   "anomalia": -0.22,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2025,
+   "fecha": "2025-03",
+   "total": 27.15,
+   "anomalia": -0.08,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2025,
+   "fecha": "2025-04",
+   "total": 27.65,
+   "anomalia": 0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2025,
+   "fecha": "2025-05",
+   "total": 27.76,
+   "anomalia": -0.04,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2025,
+   "fecha": "2025-06",
+   "total": 27.61,
+   "anomalia": -0.02,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2025,
+   "fecha": "2025-07",
+   "total": 27.18,
+   "anomalia": -0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2025,
+   "fecha": "2025-08",
+   "total": 26.7,
+   "anomalia": -0.26,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2025,
+   "fecha": "2025-09",
+   "total": 26.33,
+   "anomalia": -0.43,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "SON",
+   "anio": 2025,
+   "fecha": "2025-10",
+   "total": 26.14,
+   "anomalia": -0.57,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "OND",
+   "anio": 2025,
+   "fecha": "2025-11",
+   "total": 26.04,
+   "anomalia": -0.61,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "NDJ",
+   "anio": 2025,
+   "fecha": "2025-12",
+   "total": 25.96,
+   "anomalia": -0.6,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "DJF",
+   "anio": 2026,
+   "fecha": "2026-01",
+   "total": 26.15,
+   "anomalia": -0.39,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "JFM",
+   "anio": 2026,
+   "fecha": "2026-02",
+   "total": 26.57,
+   "anomalia": -0.21,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "FMA",
+   "anio": 2026,
+   "fecha": "2026-03",
+   "total": 27.34,
+   "anomalia": 0.11,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "MAM",
+   "anio": 2026,
+   "fecha": "2026-04",
+   "total": 28.09,
+   "anomalia": 0.46,
+   "fase": "Neutral"
+  },
+  {
+   "trimestre": "AMJ",
+   "anio": 2026,
+   "fecha": "2026-05",
+   "total": 28.74,
+   "anomalia": 0.95,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "MJJ",
+   "anio": 2026,
+   "fecha": "2026-06",
+   "total": 29.02,
+   "anomalia": 1.39,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JJA",
+   "anio": 2026,
+   "fecha": "2026-07",
+   "total": 29.09,
+   "anomalia": 1.8,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "JAS",
+   "anio": 2026,
+   "fecha": "2026-08",
+   "total": 29.12,
+   "anomalia": 2.16,
+   "fase": "El Niño"
+  },
+  {
+   "trimestre": "ASO",
+   "anio": 2026,
+   "fecha": "2026-09",
+   "total": 29.23,
+   "anomalia": 2.46,
+   "fase": "El Niño"
+  }
+ ]
+}
