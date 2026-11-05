@@ -22,6 +22,13 @@ data/raw/
 node_modules/
 web/dist/
 web/.angular/
+# Copia de data/processed/ que hace web/scripts/copiar-datos.mjs en cada build
+web/public/data/
+# Configuración local de Vercel CLI (puede contener IDs del proyecto)
+.vercel/
+
+# ─── Configuración local de Claude Code (permisos de esta máquina) ───
+.claude/settings.local.json
 
 # ─── Sistema operativo / editores ───
 .DS_Store
