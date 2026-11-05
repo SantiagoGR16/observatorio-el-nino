@@ -3,7 +3,9 @@
 Sistema multiagente que cada semana recoge datos sobre El Niño en Colombia, cruza clima con
 impactos y publica un boletín y un dashboard web.
 
-> **Estado:** fase 2 — dashboard Angular con gráficas del ONI y embalses y mapa de Colombia.
+**🌐 Sitio publicado: https://observatorio-el-nino.vercel.app/**
+
+> **Estado:** fases 1 y 2 terminadas (pipeline de datos + dashboard publicado). Siguiente: fase 3.
 
 ## Arquitectura
 
@@ -75,8 +77,9 @@ npm start       # http://localhost:4200
 
 ## Despliegue
 
-Vercel importa el repositorio desde la raíz; `vercel.json` le indica instalar y compilar
-dentro de `web/` y publicar `web/dist/web/browser`. Cada push a `main` redespliega.
+Publicado en **https://observatorio-el-nino.vercel.app/**. Vercel importa el repositorio
+desde la raíz; `vercel.json` le indica instalar y compilar dentro de `web/` y publicar
+`web/dist/web/browser`. Cada push a `main` redespliega.
 
 En macOS/Linux, activa el entorno con `source .venv/bin/activate`.
 
@@ -88,6 +91,6 @@ rellénalo. `.env` está en `.gitignore`: **nunca** se sube al repositorio.
 ## Fases
 
 1. ✅ Esqueleto + `recolector` y `analista` (ONI y embalses) → JSON en `data/`.
-2. 🚧 App Angular con gráficas y mapa (hecha); deploy en Vercel (pendiente).
+2. ✅ App Angular con gráficas y mapa; deploy en Vercel.
 3. Agentes `riesgo`, `redactor` y `verificador`; boletín semanal; GitHub Actions.
 4. Chat sobre los datos (ruta serverless en Vercel).

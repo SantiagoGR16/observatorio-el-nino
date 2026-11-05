@@ -42,6 +42,20 @@ cuando las tomes y deja el código comentado en español.
 
 Trabajar una fase a la vez. No avanzar a la siguiente sin que la actual funcione de punta a punta.
 
+## Estado actual (actualizado 2026-11-04)
+- ✅ **Fase 1 terminada**: `recolector` y `analista` para ONI (NOAA), embalses (XM) y límites
+  departamentales (DANE MGN 2025 + DIVIPOLA). Corre con `python -m agents.pipeline`.
+- ✅ **Fase 2 terminada**: dashboard Angular 22 publicado en https://observatorio-el-nino.vercel.app/
+  (Vercel importa desde la raíz del repo; ver `vercel.json`). Verificado: datos, 3 gráficas,
+  mapa con 33 departamentos, sin errores de consola, sin scroll horizontal a 390 px.
+- ⏭️ **Siguiente: fase 3** (se retoma el 2026-11-05): agentes `riesgo`, `redactor` y
+  `verificador`, boletín en el sitio y GitHub Actions semanal.
+- Decisiones ya tomadas que conviene mantener:
+  - `recolector` y `analista` son Python determinista, sin LLM; los agentes con LLM empiezan
+    en la fase 3 (`redactor`, `verificador`).
+  - Mapa base de OpenStreetMap (sin API key). CARTO se descartó porque exige clave.
+  - Peculiaridades de cada fuente documentadas en los docstrings de `agents/recolector/` y en el README.
+
 ## Convenciones
 - Python: `uv` o `venv` + `requirements.txt`, type hints, `ruff`. Tests con `pytest`.
 - Secretos (ANTHROPIC_API_KEY, etc.) solo en `.env` (en `.gitignore`) y en GitHub Secrets.
